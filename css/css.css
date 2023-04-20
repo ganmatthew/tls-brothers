@@ -1,3 +1,131 @@
 /**
  * This stylesheet contains CSS that are used across any page
 */
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    background-color: var(--body-bg);
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Increase the horizontal padding for the container */
+.container {
+    padding-left: calc(var(--bs-gutter-x) * .55);
+    padding-right: calc(var(--bs-gutter-x) * .55);
+}
+
+/**
+ * NAVBAR
+*/
+nav.navbar {
+    width: 100%;
+    height: 5.75rem;
+    transition: 0.2s ease-in;
+}
+
+nav.nav-bg {
+    background-color: rgba(29, 90, 50, 0.9);
+}
+
+nav.nav-hollowbg {
+    /* Styles for subpage header */
+    background-color: none;
+}
+
+nav.nav-hollowbg > .container {
+    /* Styles for subpage header */
+    border-bottom: 0.05rem solid rgba(255, 255, 255, 0.75);
+}
+
+img.nav-logo {
+    /* TLS logo at navbar */
+    width: 3rem;
+    transition: 0.2s ease-in;
+}
+
+img.nav-logo:hover {
+    transform: scale(1.1);
+    opacity: 0.85;
+}
+
+li.nav-item {
+    margin: 0 0.35rem 0;
+    color: rgba(29, 90, 50, 1);
+}
+
+li.nav-item > span.material-icons {
+    display: none;
+}
+
+a.nav-link {
+    /* Links inside the li.nav-item */
+    padding: 0.25rem 1.25rem !important;
+    font-weight: 500;
+    font-size: 0.85em;
+    border-radius: 50rem;
+    background-color: rgba(214, 230, 218, 1);
+    transition: 0.2s;
+}
+
+a.nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+nav .offcanvas {
+    background-color: rgba(26, 26, 26, 0.9);
+    padding: 2rem;
+    color: white !important;
+}
+
+nav h5.offcanvas-title {
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 767px) {
+    nav.navbar {
+        height: 4rem !important;
+    }
+
+    nav.navbar .container {
+        padding-bottom: .5rem;
+    }
+    
+    img.nav-logo {
+        width: 2.5rem !important;
+    }
+    
+    li.nav-item {
+        display: flex;
+        align-items: center;
+        margin: 1rem 0;
+    }
+
+    li.nav-item > span.material-icons {
+        display: block;
+        margin-right: 1.5rem;
+        font-size: 2em;
+    }
+
+    a.nav-link {
+        background-color: rgba(255, 255, 255, 0);
+        font-size: 1.2em;
+        font-weight: 400;
+    }
+
+    button.navbar-toggler {
+        display: inline-flex;
+        align-items: center;
+    }
+}
