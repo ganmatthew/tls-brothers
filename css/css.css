@@ -3,7 +3,7 @@
 */
 
 body {
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
     background-color: var(--body-bg);
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
@@ -17,7 +17,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
 }
 
 /* Increase the horizontal padding for the container */

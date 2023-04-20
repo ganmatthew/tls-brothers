@@ -31,7 +31,7 @@ header div.header-bg a {
 }
 
 header h4.title {
-    font-size: 2.15em;
+    font-size: 3.15em;
 }
 
 header div.background {
@@ -41,6 +41,6 @@ header div.background {
 }
 
 header div.pady {
-    padding-top: 35rem!important;
+    padding-top: 34rem!important;
     padding-bottom: 3rem!important;
 }

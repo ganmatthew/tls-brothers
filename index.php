@@ -21,7 +21,7 @@
         <div class="header-bg" style="background-image: url(assets/DeLaSalleBrothers.jpg)"> <!-- Placeholder Header Background Image -->
         <div class="container pady background">
             <div class="pb-6 px-auto mx-auto col-md-12 col-lg-6 d-flex flex-column justify-content-center align-items-center text-center">
-                <h4 class="title mb-3"> <strong>De La Salle Brothers</strong></h4>  
+                <h4 class="title mb-3"> <strong>DE LA SALLE BROTHERS</strong></h4>  
             </div>
         </div></a></div>
     </header>
