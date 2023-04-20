@@ -1,0 +1,12 @@
+/**
+ * This stylesheet contains CSS specific to the homepage
+*/
+
+@import "css.css";
+
+/**
+ * HEADER
+*/
+header {
+    overflow: hidden;
+}
