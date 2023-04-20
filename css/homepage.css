@@ -10,3 +10,37 @@
 header {
     overflow: hidden;
 }
+
+header div.header-bg {
+    background-position: center;
+    display: block;
+    background-size: 100%;
+    transition: background-size 0.25s ease-out;
+    padding-top: 3.75rem;
+    color: white;
+}
+
+header div.header-bg a {
+    color: inherit;
+}
+
+@media only screen and (max-width: 1185px) {
+    header div.header-bg {
+        background-size: cover;
+    }
+}
+
+header h4.title {
+    font-size: 2.15em;
+}
+
+header div.background {
+    background-color: rgba(29, 90, 50, 0.3);
+    margin: 0%;
+    max-width: 100% !important;
+}
+
+header div.pady {
+    padding-top: 35rem!important;
+    padding-bottom: 3rem!important;
+}
