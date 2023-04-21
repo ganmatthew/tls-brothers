@@ -189,7 +189,7 @@ body .vox_carousel{
     padding-right: calc(var(--bs-gutter-x) * .55);
     position: relative;
     width: 100%;
-    height: 39rem;
+    height: 40rem;
 }
 
 .vox_carousel .vox_icon {
@@ -287,9 +287,8 @@ body .vox_carousel{
 h4.vox_title {
     font-size: 3.15em;
     color: #000;
-=======
- * FOOTER
-*/
+}
+
 footer {
     background-size: cover;
     background-position: center bottom;
