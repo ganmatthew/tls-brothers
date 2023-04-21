@@ -1,4 +1,4 @@
-<footer style="background: #1D5A32;">
+<footer>
     <div class="container">
         <div class="row">
             <!-- Left Side: TLS and Site Name -->
