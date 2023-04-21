@@ -297,9 +297,9 @@ body .vox-carousel{
     padding-bottom: 2rem!important;
 }
 
-h4.vox-title {
+h2.vox-title {
     font-size: 3.15em;
-    color: #000;
+    color: #000!important;
 }
 
 /**
@@ -367,9 +367,9 @@ div.card_left {
  * FOOTER
 */
 footer {
+    background: #1D5A32;
     background-size: cover;
     background-position: center bottom;
-    background: #1D5A32;
     color: white;
     padding-top: 5rem;
     padding-bottom: 5rem;
