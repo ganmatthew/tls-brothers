@@ -287,4 +287,73 @@ body .vox_carousel{
 h4.vox_title {
     font-size: 3.15em;
     color: #000;
+=======
+ * FOOTER
+*/
+footer {
+    background-size: cover;
+    background-position: center bottom;
+    color: white;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+footer a {
+    color: white !important;
+    text-decoration: none !important;
+}
+
+footer a:hover {
+    text-decoration: underline !important;
+}
+
+.footer-link-main-site {
+    padding-top: 1.25em;
+    padding-bottom: 1.25em;
+    font-size: 1em;
+    margin-right: 0.5rem;
+    transition: 0.3s;
+}
+
+.footer-link-main-site:hover {
+    opacity: 0.75; /* reduce opacity */
+}
+
+.footer-link-main-site:hover + .material-icons {
+    transform: translateX(.3rem); /* slide right slight */
+}
+
+.material-icons {
+    transition: 0.3s;
+}
+
+@media screen and (min-width: 1200px) /* md going to lg */ {
+    .footer-description {
+        font-size: 1em !important;
+    }
+    
+    .footer-developers {
+        font-size: 0.8em !important;
+    }
+}
+
+@media screen and (max-width: 1200px) /* md going below until xs */ {
+    .footer-description {
+        font-size: 0.8em !important;
+        padding-top: 0.5rem;
+    }
+    
+    .footer-link-main-site {
+        font-size: 0.8em !important;
+    }
+
+    .footer-developers {
+        font-size: 0.7em !important;
+        padding-top: 0.5rem;
+    }
+}
+
+.footer-title {
+    border-radius: 70px;
+    background: rgba(74, 117, 79, 0.5);
 }
