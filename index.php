@@ -26,6 +26,8 @@
         </div></a></div>
     </header>
 
+    <!-- Footer -->
+    <?php require_once 'php/components/footer.php' ?>
 </body>
 
 </html>
