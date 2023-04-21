@@ -71,7 +71,7 @@
     </div>
     <div class="container vox-textBx">
         <div class="pb-6 px-auto mx-auto justify-content-center align-items-center text-center">
-            <h2 class="vox-title mb-3"> <strong>Vox Prompt</strong></h4>  
+            <h4 class="vox_title mb-3"> <strong>Vox Prompt</strong></h2>  
         </div>
     </div>
 </div>

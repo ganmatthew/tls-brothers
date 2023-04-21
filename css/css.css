@@ -156,7 +156,7 @@ header div.header-bg a {
 }
 
 header h1.title {
-    font-weight: 600;
+    font-weight: 700;
     font-size: 60px;
     line-height: 100px;
     letter-spacing: 0.1em;
@@ -297,9 +297,44 @@ body .vox-carousel{
     padding-bottom: 2rem!important;
 }
 
-h2.vox-title {
+h4.vox-title {
     font-size: 3.15em;
     color: #000;
+}
+
+/**
+ *  COMMUNITIES CAROUSEL
+*/
+body .comm_carousel{
+    background: #1D5A32;
+    justify-content: center;
+    align-items: center;
+}
+
+.comm_pady {
+    padding-top: 4rem!important;
+    padding-bottom: 2rem!important;
+}
+
+.comm_card {
+    display: flex;
+}
+
+.comm_card img {
+    border: 2px solid white;
+    border-radius: 12px;
+}
+
+div.card_left {
+    align-items: center;
+}
+
+.card_right h3 {
+    font-weight: 700;
+}
+
+.card_right strong {
+    font-weight: 700;
 }
 
 /**
@@ -330,11 +365,11 @@ h2.vox-title {
 
 /**
  * FOOTER
- */
-
+*/
 footer {
     background-size: cover;
     background-position: center bottom;
+    background: #1D5A32;
     color: white;
     padding-top: 5rem;
     padding-bottom: 5rem;
