@@ -29,14 +29,12 @@
     <!-- Vox Carousel -->
     <?php require_once 'php/components/vox.php' ?>
 
+    <!-- Communities Carousel -->
+    <?php require_once 'php/components/communities.php'?>
+    
     <!-- Articles -->
     <?php require_once 'php/components/articles.php' ?>
 
-    <!-- Communities Carousel -->
-    <?php
-        require_once 'php/components/communities.php'
-    ?>
-    
     <!-- Footer -->
     <?php require_once 'php/components/footer.php' ?>
 
