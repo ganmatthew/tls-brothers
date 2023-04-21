@@ -179,17 +179,17 @@ header div.pady {
 /**
  * VOX CAROUSEL
 */
-body .vox_carousel{
+body .vox-carousel{
     justify-content: center;
     align-items: center;
 }
 
-.vox_pady {
+.vox-pady {
     padding-top: 18.5!important;
     padding-bottom: 18.5rem!important;
 }
 
-.vox_carousel {
+.vox-carousel {
     padding-left: calc(var(--bs-gutter-x) * .55);
     padding-right: calc(var(--bs-gutter-x) * .55);
     position: relative;
@@ -197,7 +197,7 @@ body .vox_carousel{
     height: 40rem;
 }
 
-.vox_carousel .vox_icon {
+.vox-carousel .vox-icon {
     position: relative;
     left: -13rem;
     top: 15rem;
@@ -207,10 +207,10 @@ body .vox_carousel{
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    /**animation: animate_small 20s linear infinite;*/
+    /**animation: animate-small 20s linear infinite;*/
 }
 
-@keyframes animate_small {
+@keyframes animate-small {
     0% {
         rotate: 0deg;
     }
@@ -219,7 +219,7 @@ body .vox_carousel{
     }
 }
 
-.vox_carousel .vox_icon .vox_img {
+.vox-carousel .vox-icon .vox-img {
     position: absolute;
     width: 4.5rem;
     height: 4.5rem;
@@ -231,7 +231,7 @@ body .vox_carousel{
     transform-origin: 15rem;
 }
 
-.vox_carousel .vox_icon .vox_img img {
+.vox-carousel .vox-icon .vox-img img {
     position: absolute;
     top: 0;
     left: 0;
@@ -245,12 +245,12 @@ body .vox_carousel{
     opacity: 0.8;
 }
 
-.vox_carousel .vox_icon .vox_img.vox_active img {
+.vox-carousel .vox-icon .vox-img.vox-active img {
     filter: grayscale(0);
     opacity: 1;
 }
 
-.vox_content {
+.vox-content {
     position: relative;
     inset: 0;
     display: flex;
@@ -260,20 +260,20 @@ body .vox_carousel{
     top: 13rem;
 }
 
-.vox_contentBx {
+.vox-contentBx {
     position: absolute;
     transform: scale(0);
     transition: 0.5s;
     opacity: 0;
 }
 
-.vox_contentBx.vox_active {
+.vox-contentBx.vox-active {
     transform: scale(1);
     opacity: 1;
     transition-delay: 0.25s;
 }
 
-.vox_contentBx .vox_img{
+.vox-contentBx .vox-img{
     position: relative;
     width: 16rem;
     height: 16rem;
@@ -283,7 +283,7 @@ body .vox_carousel{
     overflow: hidden;
 }
 
-.vox_contentBx .vox_img img{
+.vox-contentBx .vox-img img{
     position: absolute;
     top: 0;
     left: 0;
@@ -292,13 +292,39 @@ body .vox_carousel{
     object-fit: cover;
 }
 
-.vox_textBx {
+.vox-textBx {
     padding-top: 29.5rem!important;
     padding-bottom: 2rem!important;
 }
 
-h4.vox_title {
+h2.vox-title {
     font-size: 3.15em;
+    color: #000;
+}
+
+/**
+ * ARTICLES
+ */
+.article-pad {
+    padding-top: 2.5rem!important;
+    padding-bottom: 2.5rem!important;
+    padding-left: 2.5rem!important;
+    padding-right: 2.5rem!important;
+}
+
+.card-img-top {
+    padding-top: 1rem!important;
+}
+
+.card {
+    margin: 1%;
+}
+
+.card-title {
+    color: #000;
+}
+
+.card-text {
     color: #000;
 }
 
