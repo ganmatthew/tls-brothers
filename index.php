@@ -4,7 +4,7 @@
 
 <head>
     <?php require_once 'php/components/head.php' ?>
-    <link rel="stylesheet" href="css/homepage.css">
+    <link rel="stylesheet" href="css/css.css">
 
     <!-- Title -->
     <title>The LaSallian: De La Salle Brothers</title>
@@ -17,6 +17,7 @@
         require_once 'php/components/navbar.php'
     ?>
 
+    <!-- Header -->
     <header>
         <div class="header-bg" style="background-image: url(assets/DeLaSalleBrothers.jpg)"> <!-- Placeholder Header Background Image -->
         <div class="container pady background">
@@ -25,6 +26,11 @@
             </div>
         </div></a></div>
     </header>
+
+    <!-- Vox Carousel -->
+    <?php
+        require_once 'php/components/vox.php'
+    ?>
 
 </body>
 
