@@ -202,6 +202,16 @@ body .vox_carousel{
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    /**animation: animate_small 20s linear infinite;*/
+}
+
+@keyframes animate_small {
+    0% {
+        rotate: 0deg;
+    }
+    100% {
+        rotate: 360deg;
+    }
 }
 
 .vox_carousel .vox_icon .vox_img {
@@ -211,13 +221,9 @@ body .vox_carousel{
     border-radius: 50%;
     transition: 0.5s;
     border: 1px solid #000;
-    box-shadow: 0 0 0 4px #222, 0 0 0 6px rgba(29, 90, 50, 0.3);
+    box-shadow: 0 0 0 4px #222;
     transform: rotate(calc(360deg / 8 * var(--i)));
     transform-origin: 15rem;
-}
-
-.vox_carousel .vox_icon .vox_img.vox_active {
-
 }
 
 .vox_carousel .vox_icon .vox_img img {
@@ -231,10 +237,12 @@ body .vox_carousel{
     transform: rotate(calc(-360deg / 8 * var(--i)));
     transition: 0.5s;
     filter: grayscale(1);
+    opacity: 0.8;
 }
 
 .vox_carousel .vox_icon .vox_img.vox_active img {
     filter: grayscale(0);
+    opacity: 1;
 }
 
 .vox_content {
@@ -257,7 +265,7 @@ body .vox_carousel{
 .vox_contentBx.vox_active {
     transform: scale(1);
     opacity: 1;
-    transition-delay: 0.5s;
+    transition-delay: 0.25s;
 }
 
 .vox_contentBx .vox_img{
@@ -266,7 +274,7 @@ body .vox_carousel{
     height: 16rem;
     border-radius: 50%;
     border: 1px solid #000;
-    box-shadow: 0 0 0 4px #222, 0 0 0 6px rgba(29, 90, 50, 0.3);
+    box-shadow: 0 0 0 4px #000, 0 0 0 6px rgba(29, 90, 50, 0.3);
     overflow: hidden;
 }
 
@@ -288,6 +296,10 @@ h4.vox_title {
     font-size: 3.15em;
     color: #000;
 }
+
+/**
+ * FOOTER
+ */
 
 footer {
     background-size: cover;

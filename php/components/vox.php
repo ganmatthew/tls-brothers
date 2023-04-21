@@ -25,9 +25,6 @@
         <div class="vox_img" style="--i:8;" data-id="content8">
             <img src="assets/DeLaSalleBrothers.jpg" alt="Brother #">
         </div>
-        <div class="vox_img" style="--i:9;" data-id="content9">
-            <img src="assets/DeLaSalleBrothers.jpg" alt="Brother #">
-        </div>
     </div>
 
     <div class="vox_content px-auto mx-auto">
@@ -37,7 +34,7 @@
             </div>
         </div>
         <div class="vox_contentBx" id="content2">
-            <<div class="vox_img">
+            <div class="vox_img">
                 <img src="assets/DeLaSalleBrothers.jpg" alt="Brother #">
             </div>
         </div>
@@ -71,11 +68,6 @@
                 <img src="assets/DeLaSalleBrothers.jpg" alt="Brother #">
             </div>
         </div>
-        <div class="vox_contentBx" id="content9">
-            <div class="vox_img">
-                <img src="assets/DeLaSalleBrothers.jpg" alt="Brother #">
-            </div>
-        </div>
     </div>
     <div class="container vox_textBx">
         <div class="pb-6 px-auto mx-auto justify-content-center align-items-center text-center">
@@ -85,15 +77,15 @@
 </div>
 
 <script>
-    let vox_img = document.querySelectorAll('.vox_img');
-    let vox_content = document.querySelectorAll('.vox_contentBx');
+    let vox_img = document.querySelectorAll(".vox_img");
+    let vox_contentBx = document.querySelectorAll(".vox_contentBx");
 
     for (let i = 0; i < vox_img.length; i++) {
         vox_img[i].addEventListener('click', function () {
-            for (let j = 0; j < vox_content.length; j++) {
-                vox_content[j].className = 'vox_contentBx';
+            for (let j = 0; j < vox_contentBx.length; j++) {
+                vox_contentBx[j].className = 'vox_contentBx';
             }
-            document.getElementById(this.dataset.id).className = 'vox_contentBx vox-active';
+            document.getElementById(this.dataset.id).className = 'vox_contentBx vox_active';
 
             for (let j = 0; j < vox_img.length; j++) {
                 vox_img[j].className = 'vox_img';

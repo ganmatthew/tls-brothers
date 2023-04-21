@@ -27,9 +27,10 @@
         </div></a></div>
     </header>
     <!-- Vox Carousel -->
-    <?php
-        require_once 'php/components/vox.php'
-    ?>
+    <?php require_once 'php/components/vox.php' ?>
+
+    <!-- Articles -->
+    <?php require_once 'php/components/articles.php' ?>
     
     <!-- Footer -->
     <?php require_once 'php/components/footer.php' ?>
