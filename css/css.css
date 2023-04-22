@@ -302,6 +302,55 @@ h2.vox-title {
     color: #000!important;
 }
 
+@media only screen and (max-width: 767px) {
+    .vox-pady {
+        padding-top: 14!important;
+        padding-bottom: 14rem!important;
+    }
+
+    .vox-carousel {
+        height: 36.5rem;
+    }
+
+    .vox-carousel .vox-icon {
+        left: -11rem;
+        top: 14rem;
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .vox-carousel .vox-icon .vox-img {
+        width: 4rem;
+        height: 4rem;
+        transform-origin: 13rem;
+    }
+
+    .vox-carousel .vox-icon .vox-img img {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .vox-content {
+        left: 0rem;
+        top: 12rem;
+    }
+
+    .vox-contentBx .vox-img{
+        width: 13rem;
+        height: 13rem;
+    }
+
+    .vox-textBx {
+        padding-top: 27rem!important;
+        padding-bottom: 2rem!important;
+    }
+
+    h2.vox-title {
+        font-size: 2.5em;
+        color: #000!important;
+    }
+}
+
 /**
  *  COMMUNITIES CAROUSEL
 */
@@ -341,6 +390,11 @@ div.card_left {
 /**
  * ARTICLES
  */
+.article {
+    display: flex;
+    flex-direction: row;
+}
+
 .article-pad {
     padding-top: 2.5rem!important;
     padding-bottom: 2.5rem!important;
@@ -353,6 +407,7 @@ div.card_left {
 }
 
 .card {
+    width: 5rem;
     margin: 1%;
 }
 
@@ -362,6 +417,16 @@ div.card_left {
 
 .card-text {
     color: #000;
+}
+
+@media only screen and (max-width: 767px) {
+    .article {
+        flex-direction: column;
+    }
+    
+    .card {
+        width: 100%;
+    }
 }
 
 /**

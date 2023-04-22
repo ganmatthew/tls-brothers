@@ -6,7 +6,7 @@
 
     <!-- Article Cards -->
     <div class="article row px-auto mx-auto">
-        <div class="card col-sm" style="width: 5rem;">
+        <div class="card col-sm">
             <img class="card-img-top ac-visual" src="assets/Lasallian_Brothers_Art.png" alt="Lasallian Brothers Art">
             <div class="card-body">
                 <h5 class="card-title justify-content-center align-items-center text-center"><strong>Best of both worlds: Into the De La Salle Brothers' artistic hobbies</strong></h5>
@@ -14,7 +14,7 @@
                 <a href="https://thelasallian.com/2022/05/20/best-of-both-worlds-into-the-de-la-salle-brothers-artistic-hobbies/" class="card-link">Read More ></a>
             </div>
         </div>
-        <div class="card col-sm" style="width: 5rem;">
+        <div class="card col-sm">
             <img class="card-img-top ac-visual" src="assets/DeLaSalleBrothers.jpg" alt="Card image cap">
             <div class="card-body">
                 <h5 class="card-title justify-content-center align-items-center text-center"><strong>The De La Salle Brothers of the Philippines</strong></h5>
@@ -22,7 +22,7 @@
                 <a href="https://thelasallian.com/2013/08/07/the-de-la-salle-brothers-of-the-philippines/" class="card-link">Read More ></a>
             </div>
         </div>
-        <div class="card col-sm" style="width: 5rem;">
+        <div class="card col-sm">
             <img class="card-img-top ac-visual" src="assets/Archiving-the-lasallian-mission.png" alt="Archiving the Lasallian Mission">
             <div class="card-body">
                 <h5 class="card-title justify-content-center align-items-center text-center"><strong>Archiving the Lasallian mission in the Philippines</strong></h5>
