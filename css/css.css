@@ -318,6 +318,7 @@ body .comm_carousel{
 
 .comm_card {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .comm_card img {
