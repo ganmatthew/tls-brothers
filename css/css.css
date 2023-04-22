@@ -176,6 +176,32 @@ header div.pady {
     padding-bottom: 3rem!important;
 }
 
+@media only screen and (max-width: 767px) {
+    header h1.title {
+        font-size: 50px;
+        line-height: 70px;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    header div.pady {
+        padding-top: 24rem!important;
+        padding-bottom: 3rem!important;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    header h1.title {
+        font-size: 40px;
+        line-height: 60px;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    header div.pady {
+        padding-top: 21rem!important;
+        padding-bottom: 3rem!important;
+    }
+}
+
 /**
  * VOX CAROUSEL
 */
@@ -342,6 +368,55 @@ h2.vox-title {
 
     .vox-textBx {
         padding-top: 27rem!important;
+        padding-bottom: 2rem!important;
+    }
+
+    h2.vox-title {
+        font-size: 2.5em;
+        color: #000!important;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .vox-pady {
+        padding-top: 14!important;
+        padding-bottom: 14rem!important;
+    }
+
+    .vox-carousel {
+        height: 31.5rem;
+    }
+
+    .vox-carousel .vox-icon {
+        left: -8rem;
+        top: 12rem;
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .vox-carousel .vox-icon .vox-img {
+        width: 3rem;
+        height: 3rem;
+        transform-origin: 9.5rem;
+    }
+
+    .vox-carousel .vox-icon .vox-img img {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .vox-content {
+        left: 0rem;
+        top: 10.5rem;
+    }
+
+    .vox-contentBx .vox-img{
+        width: 10rem;
+        height: 10rem;
+    }
+
+    .vox-textBx {
+        padding-top: 23rem!important;
         padding-bottom: 2rem!important;
     }
 
