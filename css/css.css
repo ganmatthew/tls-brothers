@@ -431,31 +431,40 @@ h2.vox-title {
 */
 body .comm_carousel{
     background: #1D5A32;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .comm_pady {
-    padding-top: 4rem!important;
-    padding-bottom: 2rem!important;
+    padding-top: 4em;
+    padding-bottom: 4em;
 }
 
-.comm_card {
-    display: flex;
-    flex-wrap: wrap;
+.card_left {
+    max-width: 40%;
 }
 
-.comm_card img {
-    border: 2px solid white;
+.card_left img {
+    border: 2px solid rgba(255, 255, 255, 0.75);
     border-radius: 12px;
+    padding: 4px;
+    margin-bottom: 1em;
+    width: 25em;
+    height: auto;
 }
 
-div.card_left {
-    align-items: center;
+.card_left, .card_right {
+    padding: 1em;
+}
+
+.card_right p {
+    
 }
 
 .card_right h3 {
     font-weight: 700;
+    font-size: 32px;
 }
 
 .card_right strong {
