@@ -7,14 +7,12 @@
         </ol>
         -->
         <div class="carousel inner">
-            <!--1: 1911-->
+            <!--
             <div class="carousel-item active">
                 <div class="comm_card d-flex flex-wrap justify-content-center align-items-center">
-                    <!--Image-->
                     <div class="card_left col-sm-12 col-lg-6 d-flex flex-column align-items-center">
                         <img src="assets/1911.png">
                     </div>
-                    <!--Info-->
                     <div class="card_right col-sm-12 col-lg-6 d-flex flex-column">
                         <h3 id="comm-name">1911 Brothers' Community</h3>
                         <div class="card_info">
@@ -27,46 +25,7 @@
                     </div>
                 </div>
             </div>
-            <!--2: St Benilde-->
-            <div class="carousel-item">
-                <div class="comm_card d-flex flex-wrap justify-content-center align-items-center">
-                    <!--Image-->
-                    <div class="card_left col-sm-12 col-lg-6 d-flex flex-column align-items-center">
-                        <img src="">
-                    </div>
-                    <!--Info-->
-                    <div class="card_right col-sm-12 col-lg-6 d-flex flex-column">
-                        <h3 id="comm-name">St. Benilde Brothers' Community</h3>
-                        <div class="card_info">
-                            <p id="comm-location"><strong>Location: </strong>La Salle Green Hills, Mandaluyong, Philippines</p>
-                            <p id="comm-num-brothers"><strong>Number of Brothers assigned: </strong>8</p>
-                        </div>
-                        <p id="comm-desc">
-                            The Brothers assigned to this community serve in La Salle Green Hills, De La Salle - College of St Benilde, and La Salle College Antipolo.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <!--3: St Jaime Hilario-->
-            <div class="carousel-item">
-                <div class="comm_card d-flex flex-wrap justify-content-center align-items-center">
-                    <!--Image-->
-                    <div class="card_left col-sm-12 col-lg-6 d-flex flex-column align-items-center">
-                        <img src="">
-                    </div>
-                    <!--Info-->
-                    <div class="card_right col-sm-12 col-lg-6 d-flex flex-column">
-                        <h3 id="comm-name">St. Jaime Hilario Brothers' Community</h3>
-                        <div class="card_info">
-                            <p id="comm-location"><strong>Location: </strong>St. Jaime Hilario School - De La Salle Bataan, Bagac, Bataan, Philippines</p>
-                            <p id="comm-num-brothers"><strong>Number of Brothers assigned: </strong>3</p>
-                        </div>
-                        <p id="comm-desc">
-                            The Brothers assigned to this community serve in St Jaime Hilario School - De La Salle Bataan.
-                        </p>
-                    </div>
-                </div>
-            </div>
+            -->
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#comm-carousel" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -79,6 +38,5 @@
     </div>
 </div>
 
-<script>
-    
-</script>
+<!--Script for loading carousel elements-->
+<script src="./js/community_carousel.js"></script>

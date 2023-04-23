@@ -458,7 +458,8 @@ body .comm_carousel{
     padding: 4px;
     margin-bottom: 1em;
     width: 25em;
-    height: auto;
+    max-height: 320px;
+    object-fit: cover;
 }
 
 .card_left, .card_right {
@@ -492,6 +493,10 @@ body .comm_carousel{
 
     .card_left, .card_right {
         padding: 0.5em;
+    }
+
+    .card_left {
+        max-width: none;
     }
 }
 
