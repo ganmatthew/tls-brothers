@@ -441,6 +441,13 @@ body .comm_carousel{
     padding-bottom: 4em;
 }
 
+.comm_card {
+    margin-left: 2em;
+    margin-right: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
 .card_left {
     max-width: 40%;
 }
@@ -456,6 +463,8 @@ body .comm_carousel{
 
 .card_left, .card_right {
     padding: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
 }
 
 .card_right p {
@@ -469,6 +478,27 @@ body .comm_carousel{
 
 .card_right strong {
     font-weight: 700;
+}
+
+@media screen and (max-width: 680px) {
+    .card_right h3 {
+        text-align: center;
+        padding-bottom: 0.5em;
+    }
+
+    .carousel-item {
+        min-height: 900px;
+    }
+
+    .card_left, .card_right {
+        padding: 0.5em;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    #comm-carousel {
+        width: 98vw;
+    }
 }
 
 /**
