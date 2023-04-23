@@ -26,6 +26,9 @@
             </div>
         </div></a></div>
     </header>
+
+    <!-- Timeline -->
+    <?php require_once 'php/components/timeline.php' ?>
     
     <!-- Vox Carousel -->
     <?php require_once 'php/components/vox.php' ?>
