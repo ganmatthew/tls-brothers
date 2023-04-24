@@ -10,7 +10,7 @@
                     </a>
                     <!-- Logo Heading -->
                     <p class="footer-heading fs-4">University</p>
-                    <p class="footer-title d-inline-block px-4 fs-1">DLS Brothers</p>
+                    <p id="footer-special-name" class="footer-title d-inline-block px-4 fs-1">DLS Brothers</p>
                 </div>
             </div>
             <!-- Description -->

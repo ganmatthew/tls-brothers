@@ -613,6 +613,7 @@ footer a {
 }
 
 footer a:hover {
+    opacity: 0.75!important;
     text-decoration: underline !important;
 }
 
@@ -665,3 +666,8 @@ footer a:hover {
 .footer-title {
     border-radius: 70px;
     background: rgba(96, 146, 114, 0.5);
+}
+
+p#footer-special-name {
+    padding: 5px 25px 5px 25px !important;
+}
