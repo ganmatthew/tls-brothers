@@ -598,7 +598,7 @@ body .comm_carousel{
 */
 footer {
     /*background: #1D5A32;*/
-    background-image: linear-gradient(rgba(114, 187, 137, 0.75), rgba(29, 90, 50, 0.95)), url(/assets/dlsu-garden.jpg);
+    background-image: linear-gradient(rgba(29, 90, 50, 0.8), rgba(29, 90, 50, 0.95)), url(/assets/dlsu-garden.jpg);
     background-size: cover;
     background-position: 0% 172%;
     object-fit: cover;
@@ -664,4 +664,4 @@ footer a:hover {
 
 .footer-title {
     border-radius: 70px;
-    background: rgba(130, 188, 151, 0.5);
+    background: rgba(96, 146, 114, 0.5);
