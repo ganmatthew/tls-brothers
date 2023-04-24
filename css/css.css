@@ -517,8 +517,7 @@ body .comm_carousel{
 .article-pad {
     padding-top: 2.5rem!important;
     padding-bottom: 2.5rem!important;
-    padding-left: 2.5rem!important;
-    padding-right: 2.5rem!important;
+    max-width: 80%;
 }
 
 .card-img-top {
@@ -544,6 +543,7 @@ body .comm_carousel{
     }
     
     .card {
+        max-width: none;
         width: 100%;
     }
 }
