@@ -570,16 +570,38 @@ body .comm_carousel{
 }
 
 .card {
-    width: 5rem;
-    margin: 1%;
+    margin: 1em;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    transition: 25ms ease-in-out;
+}
+
+.card:hover {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    transform: translateY(-2px);
+    transition: 25ms ease-in-out;
 }
 
 .card-title {
+    font-size: 26px;
     color: #000;
 }
 
 .card-text {
     color: #000;
+}
+
+.card-link {
+    text-decoration: none;
+}
+
+.card img {
+    object-fit: cover;
+    max-height: 250px;
+}
+
+.card-body {
+    padding-left: 0;
+    padding-right: 0;
 }
 
 @media only screen and (max-width: 767px) {
