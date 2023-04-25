@@ -30,7 +30,6 @@
                 <!-- Website Developers -->
                 <p class="footer-developers my-auto">Copyright 2023 © <strong>The LaSallian</strong><br>
                 Website developed by <a href="https://github.com/ganmatthew">Matthew Gan</a>, <a href="https://github.com/jerw18">Jeremy Wang</a>
-                <br/>Icons by _____</p>
             </div>
         </div>
     </div>    
