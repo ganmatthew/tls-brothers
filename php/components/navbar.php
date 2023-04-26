@@ -15,7 +15,7 @@
             <div class="offcanvas offcanvas-end flex-grow-0" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                 <!-- Offcanvas Header  -->
                 <div class="offcanvas-header">
-                    <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Categories</h5>
+                    <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Jump To:</h5>
                     <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
 
@@ -27,15 +27,15 @@
                             <a class="nav-link text-reset" href="<!-- Destination -->"><strong>Timeline</strong></a>
                         </li>
                         <li class="nav-item">
-                            <span class="material-icons">vox_populi</span>
+                            <span class="material-icons">campaign</span>
                             <a class="nav-link text-reset" href="<!-- Destination -->"><strong>Vox Populi</strong></a>
                         </li>
                         <li class="nav-item">
-                            <span class="material-icons">communities</span>
+                            <span class="material-icons">groups</span>
                             <a class="nav-link text-reset" href="<!-- Destination -->"><strong>Communities</strong></a>
                         </li>
                         <li class="nav-item">
-                            <span class="material-icons">articles</span>
+                            <span class="material-icons">article</span>
                             <a class="nav-link text-reset" href="m<!-- Destination -->"><strong>Articles</strong></a>
                         </li>
                     </ul>

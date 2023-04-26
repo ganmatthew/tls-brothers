@@ -38,6 +38,7 @@ nav.navbar {
 
 nav.nav-bg {
     background-color: rgba(29, 90, 50, 0.95);
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
 
 nav.nav-hollowbg {
@@ -62,8 +63,12 @@ img.nav-logo:hover {
 }
 
 li.nav-item {
-    margin: 0 0.35rem 0;
-    color: rgba(29, 90, 50, 1);
+    margin: 0 0.35em 0;
+    color: white;
+}
+
+li.nav-item:hover {
+    color: #1D5A32;
 }
 
 li.nav-item > span.material-icons {
@@ -72,16 +77,17 @@ li.nav-item > span.material-icons {
 
 a.nav-link {
     /* Links inside the li.nav-item */
-    padding: 0.25rem 1.25rem !important;
+    padding: 0.35rem 1.1rem !important;
     font-weight: 500;
     font-size: 0.85em;
-    border-radius: 50rem;
-    background-color: rgba(214, 230, 218, 1);
+    border-radius: 1em;
+    background-color: rgba(255, 255, 255, 0.1);
     transition: 0.2s;
 }
 
 a.nav-link:hover {
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 1);
+    transition: 0.2s;
 }
 
 nav .offcanvas {
@@ -110,7 +116,16 @@ nav h5.offcanvas-title {
     li.nav-item {
         display: flex;
         align-items: center;
-        margin: 1rem 0;
+        margin: 1em 0 0 0;
+        border-radius: 30px;
+        padding: 0.5em 1em 0.5em 1em;
+        width: -moz-fit-content;
+        width: fit-content;
+    }
+
+    li.nav-item:hover {
+        background-color: rgba(255, 255, 255, 0.2);
+        color: white;
     }
 
     li.nav-item > span.material-icons {
@@ -123,6 +138,10 @@ nav h5.offcanvas-title {
         background-color: rgba(255, 255, 255, 0);
         font-size: 1.2em;
         font-weight: 400;
+    }
+
+    a.nav-link:hover {
+        background-color: rgba(255, 255, 255, 0);
     }
 
     button.navbar-toggler {
