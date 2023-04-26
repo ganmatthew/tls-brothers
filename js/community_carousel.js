@@ -7,6 +7,41 @@ const communities = [
       'desc': "The Brothers assigned to this community serve in De La Salle University - Manila, De La Salle - College of St. Benilde, De La Salle Santiago Zobel, St Jaime Hilario School - De La Salle Bataan, and De La Salle Araneta University. The community' name came from the foundation year of the first La Salle school in the Philippines. This is also the country's first community of De La Salle Brothers."
    },
    {
+      'name': "Bacolod Brothers' Community",
+      'image_name': "Bacolod.jpg",
+      'location': "Bacolod, Negros Occidental",
+      'num_brothers': 9,
+      'desc': "The Brothers assigned to this community serve in the University of St. La Salle and St. Joseph School - La Salle."
+   },
+   {
+      'name': "Holy Infancy Brothers' Community",
+      'image_name': "HolyInfancy.jpg",
+      'location': "La Salle Academy, Iligan, Lanao del Norte",
+      'num_brothers': 3,
+      'desc': "The Brothers assigned to this community serve in La Salle Academy."
+   },
+   {
+      'name': "Lipa Brothers' Community",
+      'image_name': "Lipa.jpg",
+      'location': "De La Salle Lipa, Lipa, Batangas",
+      'num_brothers': 4,
+      'desc': "The Brothers assigned to this community serve in De La Salle Lipa."
+   },
+   {
+      'name': "Ozamiz Brothers' Community",
+      'image_name': "Ozamiz.jpeg",
+      'location': "La Salle University, Ozamiz, Misamis Occidental",
+      'num_brothers': 4,
+      'desc': "The Brothers assigned to this community serve in La Salle University - Ozamiz."
+   },
+   {
+      'name': "Residencia de La Salle",
+      'image_name': null,
+      'location': "De La Salle Medical and Health Sciences Institute, Dasmariñas, Cavite",
+      'num_brothers': 10,
+      'desc': "The Brothers assigned to this community serve in De La Salle University - Dasmarinas and De La Salle Medical and Health Sciences Institute. This community also houses the retirement facility of the De La Salle Brothers."
+   },
+   {
       'name': "St. Benilde Brothers' Community",
       'image_name': null,
       'location': "La Salle Green Hills, Mandaluyong",
@@ -19,41 +54,6 @@ const communities = [
       'location': "St. Jaime Hilario School - De La Salle Bataan, Bagac, Bataan",
       'num_brothers': 3,
       'desc': "The Brothers assigned to this community serve in St. Jaime Hilario School - De La Salle Bataan."
-   },
-   {
-      'name': "Residencia de La Salle",
-      'image_name': null,
-      'location': "De La Salle Medical and Health Sciences Institute, Dasmariñas, Cavite",
-      'num_brothers': 10,
-      'desc': "The Brothers assigned to this community serve in De La Salle University - Dasmarinas and De La Salle Medical and Health Sciences Institute. This community also houses the retirement facility of the De La Salle Brothers."
-   },
-   {
-      'name': "Lipa Brothers' Community",
-      'image_name': "Lipa.jpg",
-      'location': "De La Salle Lipa, Lipa, Batangas",
-      'num_brothers': 4,
-      'desc': "The Brothers assigned to this community serve in De La Salle Lipa."
-   },
-   {
-      'name': "Bacolod Brothers' Community",
-      'image_name': "Bacolod.jpg",
-      'location': "Bacolod, Negros Occidental",
-      'num_brothers': 9,
-      'desc': "The Brothers assigned to this community serve in the University of St. La Salle and St. Joseph School - La Salle."
-   },
-   {
-      'name': "Ozamiz Brothers' Community",
-      'image_name': "Ozamiz.jpeg",
-      'location': "La Salle University, Ozamiz, Misamis Occidental",
-      'num_brothers': 4,
-      'desc': "The Brothers assigned to this community serve in La Salle University - Ozamiz."
-   },
-   {
-      'name': "Holy Infancy Brothers' Community",
-      'image_name': "HolyInfancy.jpg",
-      'location': "La Salle Academy, Iligan, Lanao del Norte",
-      'num_brothers': 3,
-      'desc': "The Brothers assigned to this community serve in La Salle Academy."
    }
 ]
 
@@ -119,8 +119,8 @@ function populateCarousel() {
    const commCarousel = document.querySelector('#comm-carousel');
    const innerCarousel = commCarousel.querySelector('.carousel .inner');
 
-   let firstItem = null
-   
+   let firstItem = null;
+
    communities.forEach(community => {
       let carouselItem = createCarouselEntry(
          community.name, community.image_name, community.location, community.num_brothers, community.desc
