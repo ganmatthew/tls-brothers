@@ -151,6 +151,26 @@ nav h5.offcanvas-title {
 }
 
 /**
+* ANCHORS
+*/
+
+:target:before {
+    content: "";
+    display: block;
+    height: 85px;
+    margin: -85px 0 0;
+}
+
+@media only screen and (max-width: 767px) {
+    :target:before {
+        content: "";
+        display: block;
+        height: 68px;
+        margin: -68px 0 0;
+    }
+}
+
+/**
  * HEADER
 */
 header {

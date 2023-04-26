@@ -24,19 +24,19 @@
                     <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                         <li class="nav-item">
                             <span class="material-icons">timeline</span>
-                            <a class="nav-link text-reset" href="<!-- Destination -->"><strong>Timeline</strong></a>
+                            <a class="nav-link text-reset" href="#timeline"><strong>Timeline</strong></a>
                         </li>
                         <li class="nav-item">
                             <span class="material-icons">campaign</span>
-                            <a class="nav-link text-reset" href="<!-- Destination -->"><strong>Vox Populi</strong></a>
+                            <a class="nav-link text-reset" href="#vox-populi"><strong>Vox Populi</strong></a>
                         </li>
                         <li class="nav-item">
                             <span class="material-icons">groups</span>
-                            <a class="nav-link text-reset" href="<!-- Destination -->"><strong>Communities</strong></a>
+                            <a class="nav-link text-reset" href="#communities"><strong>Communities</strong></a>
                         </li>
                         <li class="nav-item">
                             <span class="material-icons">article</span>
-                            <a class="nav-link text-reset" href="m<!-- Destination -->"><strong>Articles</strong></a>
+                            <a class="nav-link text-reset" href="#articles"><strong>Articles</strong></a>
                         </li>
                     </ul>
                 </div>

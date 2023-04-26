@@ -29,20 +29,28 @@
     </header>
 
     <!-- Timeline -->
-    <?php require_once 'php/components/timeline.php' ?>
+    <div class="anchor" id="timeline">
+        <?php require_once 'php/components/timeline.php' ?>
+    </div>
     
     <!-- Vox Carousel -->
-    <?php require_once 'php/components/vox.php' ?>
+    <div class="anchor" id="vox-populi">
+        <?php require_once 'php/components/vox.php' ?>
+    </div>
 
     <!-- Communities Carousel -->
-    <?php require_once 'php/components/communities.php' ?>
-    
+    <div class="anchor" id="communities">
+        <?php require_once 'php/components/communities.php' ?>
+    </div>
+
     <!-- Articles -->
-    <?php require_once 'php/components/articles.php' ?>
+    <div class="anchor" id="articles">
+        <?php require_once 'php/components/articles.php' ?>
+    </div>
 
     <!-- Footer -->
     <?php require_once 'php/components/footer.php' ?>
-
+    
     <!-- Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
