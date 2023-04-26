@@ -32,7 +32,7 @@ h6 {
 */
 nav.navbar {
     width: 100%;
-    height: 5.75rem;
+    height: 5rem;
     transition: 0.2s ease-in;
 }
 
@@ -556,7 +556,7 @@ body .comm_carousel{
  */
 .article {
     display: flex;
-    flex-direction: row;
+    align-content: center;
 }
 
 .article-pad {
