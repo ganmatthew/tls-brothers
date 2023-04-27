@@ -7,7 +7,7 @@
 
         <div class="d-flex justify-content-center justify-content-md-center order-3 order-md-2">
             <!-- Menu Button for Mobile Devices -->
-            <button class="navbar-toggler p-0 border-0 text-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <button class="navbar-toggler p-0 border-0 text-white" id="offcanvas-button" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                 <span class="material-icons">menu</span>
             </button>
 

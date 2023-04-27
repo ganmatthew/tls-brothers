@@ -18,33 +18,32 @@
    </div>
    <!--Timeline proper-->
    <div class="card-container">
-         <div class="timeline-card">
-            <img src="assets/timeline/dls_Canon_Hotelbg-2.jpg"></img>
-            <div class="text-container">
-               <h2>1651</h2>
-               <p>A man named John Baptist de La Salle was born on April 30, 1651 in Reims, Champagne, France. Being born into a noble family, he was able to attain higher education that was difficult to acquire at the time due to high poverty rates. De La Salle dreamed of and eventually became a priest.</p>
-            </div>
+      <div class="timeline-card">
+         <img src="assets/timeline/dls_Canon_Hotelbg-2.jpg"></img>
+         <div class="text-container">
+            <h2>1651</h2>
+            <p>A man named John Baptist de La Salle was born on April 30, 1651 in Reims, Champagne, France. Being born into a noble family, he was able to attain higher education that was difficult to acquire at the time due to high poverty rates. De La Salle dreamed of and eventually became a priest.</p>
          </div>
-         <div class="timeline-card">
-            <img src="assets/timeline/dls_Canon_Hotelbg-2.jpg"></img>
-            <div class="text-container">
-               <h2>1679</h2>
-               <p>John Baptist de La Salle encountered Adrian Nyel, a layman who aims to provide schooling for the poor, while working with the Sisters of the Child Jesus. After hearing Nyel’s intentions and his request for help, De La Salle pursued to be involved in the education for the poor which ended up become his life's work.</p>
-            </div>
+      </div>
+      <div class="timeline-card">
+         <img src="assets/timeline/dls_Canon_Hotelbg-2.jpg"></img>
+         <div class="text-container">
+            <h2>1679</h2>
+            <p>John Baptist de La Salle encountered Adrian Nyel, a layman who aims to provide schooling for the poor, while working with the Sisters of the Child Jesus. After hearing Nyel’s intentions and his request for help, De La Salle pursued to be involved in the education for the poor which ended up become his life's work.</p>
          </div>
-         <div class="timeline-card">
-            <img src="assets/timeline/dls_Canon_Hotelbg-2.jpg"></img>
-            <div class="text-container">
-               <h2>1680-1682</h2>
-               <p>De La Salle took steps in order to train a small group of teachers that lacked purpose and leadership. He invited them to eat at his home and eventually brought them to live with him. Due to the disturbed feelings of his family, he and his fellow teachers moved to a poor part of the city.</p>
-            </div>
+      </div>
+      <div class="timeline-card">
+         <img src="assets/timeline/dls_Canon_Hotelbg-2.jpg"></img>
+         <div class="text-container">
+            <h2>1680-1682</h2>
+            <p>De La Salle took steps in order to train a small group of teachers that lacked purpose and leadership. He invited them to eat at his home and eventually brought them to live with him. Due to the disturbed feelings of his family, he and his fellow teachers moved to a poor part of the city.</p>
          </div>
-         <div class="timeline-card">
-            <img src="assets/timeline/dls_Canon_Hotelbg-2.jpg"></img>
-            <div class="text-container">
-               <h2>1683</h2>
-               <p>The teaching community under De La Salle’s guidance started to become more formalized. Around this time, De La Salle started to call this community “Brothers.” To be fully in one with his Brothers, he distributed all his wealth to the poor during a winter famine.</p>
-            </div>
+      </div>
+      <div class="timeline-card">
+         <img src="assets/timeline/dls_Canon_Hotelbg-2.jpg"></img>
+         <div class="text-container">
+            <h2>1683</h2>
+            <p>The teaching community under De La Salle’s guidance started to become more formalized. Around this time, De La Salle started to call this community “Brothers.” To be fully in one with his Brothers, he distributed all his wealth to the poor during a winter famine.</p>
          </div>
       </div>
    </div>
