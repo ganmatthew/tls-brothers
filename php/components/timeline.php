@@ -51,16 +51,29 @@
 </div>
 <script>
    let navbar = document.getElementById('navbar');
-   let body = document.getElementById('body')
    let timelineModal = document.getElementById('timelineModal');
+   let starLogo = document.getElementById('nav-logo');
+   
+   let logoType = 0;
+
+   function toggleLogo() {
+      if (logoType == 0) {
+         logoType++;
+         starLogo.src = "assets/tls-logo-star-green.png"
+      } else {
+         logoType--;
+         starLogo.src = "assets/tls-logo-star-white.png"
+      }
+   }
 
    function toggleTimeline() {
+      toggleLogo();
       navbar.classList.toggle("timeline-mode");
       timelineModal.classList.toggle("visible");
       if (timelineModal.classList.contains("visible")) {
-         body.style.overflow = "hidden";
+         document.body.style.overflow = "hidden";
       } else {
-         body.style.overflow = "scroll";
+         document.body.style.overflow = "scroll";
       }
    }
 </script>
