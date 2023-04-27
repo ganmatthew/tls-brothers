@@ -24,7 +24,7 @@
                     <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                         <li class="nav-item">
                             <span class="material-icons">timeline</span>
-                            <a class="nav-link text-reset" href="#timeline"><strong>Timeline</strong></a>
+                            <a class="nav-link text-reset" onclick="toggleTimeline()"><strong>Timeline</strong></a>
                         </li>
                         <li class="nav-item">
                             <span class="material-icons">campaign</span>
