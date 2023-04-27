@@ -236,7 +236,7 @@ header div.background {
 */
 
 .timeline-section {
-    background-image: url(/assets/dls_Canon_Hotelbg-2.jpg);
+    background-image: url(/assets/timeline/dls_Canon_Hotelbg-2.jpg);
     background-position-y: 10%;
     height: 40vh;
 }
@@ -304,7 +304,7 @@ div.timeline-title {
 }
 
 div.timeline-modal {
-    display: none; /* hidden by default */
+    display: flex; /* hidden by default */
     flex-direction: column;
     align-content: center;
     align-items: center;
@@ -327,18 +327,16 @@ div.timeline-modal::-webkit-scrollbar {
 div.timeline-modal .card-container {
     width: 80%;
     display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
     padding: 2em;
 }
-
 
 div.card-container .timeline-card {
     display: flex;
     flex-direction: column;
-    width: 25em;
-    height: min-content;
+    max-width: 30em;
+    max-height: max-content;
     border: 4px solid white;
     border-radius: 16px;
     overflow: hidden; /* Makes sure the image fits in the rounded card */
@@ -362,8 +360,8 @@ div.timeline-card .text-container {
     margin: auto;
     color: black;
     font-weight: 700;
-    font-size: 48px;
-    line-height: 90px;
+    font-size: 42px;
+    line-height: 80px;
 }
 
 .text-container p {

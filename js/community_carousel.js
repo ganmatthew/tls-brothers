@@ -59,7 +59,7 @@ const communities = [
 
 function getImageAsset(image_path) {
    placeholder_url = "assets/dlsp-placeholder.png"
-   comm_image_url = `assets/${image_path}`   
+   comm_image_url = `assets/communities/${image_path}`
    if (image_path !== null) {
       return comm_image_url;
    }

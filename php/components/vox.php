@@ -2,70 +2,70 @@
     
     <div class="vox-icon px-auto mx-auto">
         <div class="vox-img vox-active" style="--i:1;" data-id="content1">
-            <img src="assets/DeLaSalleBrothers.jpg" alt="Brother #">
+            <img src="assets/articles/DeLaSalleBrothers.jpg" alt="Brother #">
         </div>
         <div class="vox-img" style="--i:2;" data-id="content2">
-            <img src="assets/DeLaSalleBrothers.jpg" alt="Brother #">
+            <img src="assets/articles/DeLaSalleBrothers.jpg" alt="Brother #">
         </div>
         <div class="vox-img" style="--i:3;" data-id="content3">
-            <img src="assets/DeLaSalleBrothers.jpg" alt="Brother #">
+            <img src="assets/articles/DeLaSalleBrothers.jpg" alt="Brother #">
         </div>
         <div class="vox-img" style="--i:4;" data-id="content4">
-            <img src="assets/DeLaSalleBrothers.jpg" alt="Brother #">
+            <img src="assets/articles/DeLaSalleBrothers.jpg" alt="Brother #">
         </div>
         <div class="vox-img" style="--i:5;" data-id="content5">
-            <img src="assets/DeLaSalleBrothers.jpg" alt="Brother #">
+            <img src="assets/articles/DeLaSalleBrothers.jpg" alt="Brother #">
         </div>
         <div class="vox-img" style="--i:6;" data-id="content6">
-            <img src="assets/DeLaSalleBrothers.jpg" alt="Brother #">
+            <img src="assets/articles/DeLaSalleBrothers.jpg" alt="Brother #">
         </div>
         <div class="vox-img" style="--i:7;" data-id="content7">
-            <img src="assets/DeLaSalleBrothers.jpg" alt="Brother #">
+            <img src="assets/articles/DeLaSalleBrothers.jpg" alt="Brother #">
         </div>
         <div class="vox-img" style="--i:8;" data-id="content8">
-            <img src="assets/DeLaSalleBrothers.jpg" alt="Brother #">
+            <img src="assets/articles/DeLaSalleBrothers.jpg" alt="Brother #">
         </div>
     </div>
 
     <div class="vox-content px-auto mx-auto">
         <div class="vox-contentBx vox-active" id="content1">
             <div class="vox-img">
-                <img src="assets/DeLaSalleBrothers.jpg" alt="Brother #">
+                <img src="assets/articles/DeLaSalleBrothers.jpg" alt="Brother #">
             </div>
         </div>
         <div class="vox-contentBx" id="content2">
             <div class="vox-img">
-                <img src="assets/DeLaSalleBrothers.jpg" alt="Brother #">
+                <img src="assets/articles/DeLaSalleBrothers.jpg" alt="Brother #">
             </div>
         </div>
         <div class="vox-contentBx" id="content3">
             <div class="vox-img">
-                <img src="assets/DeLaSalleBrothers.jpg" alt="Brother #">
+                <img src="assets/articles/DeLaSalleBrothers.jpg" alt="Brother #">
             </div>
         </div>
         <div class="vox-contentBx" id="content4">
             <div class="vox-img">
-                <img src="assets/DeLaSalleBrothers.jpg" alt="Brother #">
+                <img src="assets/articles/DeLaSalleBrothers.jpg" alt="Brother #">
             </div>
         </div>
         <div class="vox-contentBx" id="content5">
             <div class="vox-img">
-                <img src="assets/DeLaSalleBrothers.jpg" alt="Brother #">
+                <img src="assets/articles/DeLaSalleBrothers.jpg" alt="Brother #">
             </div>
         </div>
         <div class="vox-contentBx" id="content6">
             <div class="vox-img">
-                <img src="assets/DeLaSalleBrothers.jpg" alt="Brother #">
+                <img src="assets/articles/DeLaSalleBrothers.jpg" alt="Brother #">
             </div>
         </div>
         <div class="vox-contentBx" id="content7">
             <div class="vox-img">
-                <img src="assets/DeLaSalleBrothers.jpg" alt="Brother #">
+                <img src="assets/articles/DeLaSalleBrothers.jpg" alt="Brother #">
             </div>
         </div>
         <div class="vox-contentBx" id="content8">
             <div class="vox-img">
-                <img src="assets/DeLaSalleBrothers.jpg" alt="Brother #">
+                <img src="assets/articles/DeLaSalleBrothers.jpg" alt="Brother #">
             </div>
         </div>
     </div>
