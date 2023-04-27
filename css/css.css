@@ -33,12 +33,19 @@ h6 {
 nav.navbar {
     width: 100%;
     height: 5rem;
+    background-color: rgba(29, 90, 50, 0.95);
     transition: 0.2s ease-in;
 }
 
 nav.nav-bg {
     background-color: rgba(29, 90, 50, 0.95);
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+/* Change navbar color on timeline toggle */
+nav.navbar.timeline-mode {
+    background-color: rgba(255, 255, 255, 1);
+    transition: 0.2s ease-in;
 }
 
 nav.nav-hollowbg {
@@ -287,7 +294,7 @@ button.open-button:hover {
 div.timeline-title {
     color: white;
     text-align: center;
-
+    padding-top: 2em;
 }
 
 .timeline-title h1 span.title-top {
@@ -303,8 +310,16 @@ div.timeline-title {
     font-size: 48px;
 }
 
+div.timeline-modal.visible {
+    visibility: visible;
+    transform: translateY(85px);
+    transition: 0.4s ease-in-out;
+    opacity: 1;
+}
+
 div.timeline-modal {
-    display: flex; /* hidden by default */
+    visibility: hidden;
+    display: flex;
     flex-direction: column;
     align-content: center;
     align-items: center;
@@ -314,9 +329,11 @@ div.timeline-modal {
     top: 0;
     width: 100%;
     height: 100%;
-    transform: translateY(85px);
+    transform: translateY(0px);
     overflow-y: scroll;
     background-color: rgba(29, 90, 50, 0.95);
+    opacity: 0;
+    transition: 0.4s ease-in-out;
 }
 
 /* Hides the scrollbar on the timeline modal */
@@ -371,6 +388,24 @@ div.timeline-card .text-container {
     font-size: 21px;
     line-height: 1.3;
     text-align: center;
+}
+
+button.timeline-close {
+    position: absolute;
+    width: 50px;
+    font-size: 48px;
+    top: 10%;
+    right: 8%;
+    color: white;
+    border: 0;
+    background: none;
+    box-shadow: none;
+    border-radius: 0px;
+}
+
+button.timeline-close:hover {
+    transform: scale(1.1);
+    opacity: 0.85;
 }
 
 /**

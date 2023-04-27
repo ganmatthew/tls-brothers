@@ -2,11 +2,13 @@
    <div class="timeline-background d-flex flex-column align-items-center justify-content-center">
       <h1>371 years in the making</h1>
       <p>Learn about the origins of the Lasallian mission from where it all started, and how it made its way to the Philippines.</p>
-      <button type="button" class="open-button" id="open-timeline" onclick="toggleTimeline()">View</button>
+      <button type="button" class="open-button" onclick="toggleTimeline()">View</button>
    </div>
 </div>
 <!-- Hidden initially -->
-<div class="timeline-modal" id="timelineModal" hidden>
+<div class="timeline-modal" id="timelineModal">
+   <!--Close button-->
+   <button onclick="toggleTimeline()" class="timeline-close material-icons">close</button>
    <!--Title-->
    <div class="timeline-title">
       <h1>
@@ -48,7 +50,17 @@
    </div>
 </div>
 <script>
+   let navbar = document.getElementById('navbar');
+   let body = document.getElementById('body')
+   let timelineModal = document.getElementById('timelineModal');
+
    function toggleTimeline() {
-      
+      navbar.classList.toggle("timeline-mode");
+      timelineModal.classList.toggle("visible");
+      if (timelineModal.classList.contains("visible")) {
+         body.style.overflow = "hidden";
+      } else {
+         body.style.overflow = "scroll";
+      }
    }
 </script>
