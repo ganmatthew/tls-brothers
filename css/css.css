@@ -282,7 +282,7 @@ header div.background {
 */
 
 .timeline-section {
-    background-image: url(/assets/timeline/dls_Canon_Hotelbg-2.jpg);
+    background-image: url(/assets/timeline/timeline1.jpg);
     background-position-y: 10%;
     height: 40vh;
 }
@@ -373,6 +373,7 @@ div.timeline-modal {
     background-color: rgba(29, 90, 50, 0.95);
     opacity: 0;
     transition: 0.4s ease-in-out;
+    padding-bottom: 90px;
 }
 
 /* Hides the scrollbar on the timeline modal */
@@ -391,7 +392,7 @@ div.timeline-modal .card-container {
 div.card-container .timeline-card {
     display: flex;
     flex-direction: column;
-    max-width: 30em;
+    max-width: 40em;
     max-height: max-content;
     border: 4px solid white;
     border-radius: 16px;
@@ -416,6 +417,8 @@ div.card-container .timeline-card {
 
 .timeline-card img {
     width: 100%;
+    max-height: 30em;
+    object-fit: cover;
 }
 
 div.timeline-card .text-container {
