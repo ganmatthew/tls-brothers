@@ -29,9 +29,7 @@
     </header>
 
     <!-- Timeline -->
-    <div class="anchor" id="timeline">
-        <?php require_once 'php/components/timeline.php' ?>
-    </div>
+    <?php require_once 'php/components/timeline.php' ?>
     
     <!-- Vox Carousel -->
     <div class="anchor" id="vox-populi">
