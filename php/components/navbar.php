@@ -28,15 +28,15 @@
                         </li>
                         <li class="nav-item">
                             <span class="material-icons">campaign</span>
-                            <a class="nav-link text-reset" href="#vox-populi"><strong>Vox Populi</strong></a>
+                            <a class="nav-link text-reset" onclick="toggleTimelineWhileVisible()" href="#vox-populi"><strong>Vox Populi</strong></a>
                         </li>
                         <li class="nav-item">
                             <span class="material-icons">groups</span>
-                            <a class="nav-link text-reset" href="#communities"><strong>Communities</strong></a>
+                            <a class="nav-link text-reset" onclick="toggleTimelineWhileVisible()" href="#communities"><strong>Communities</strong></a>
                         </li>
                         <li class="nav-item">
                             <span class="material-icons">article</span>
-                            <a class="nav-link text-reset" onclick="toggleTimelineWithArticle()"href="#articles"><strong>Articles</strong></a>
+                            <a class="nav-link text-reset" onclick="toggleTimelineWhileVisible()" href="#articles"><strong>Articles</strong></a>
                         </li>
                     </ul>
                 </div>

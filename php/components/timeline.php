@@ -180,7 +180,7 @@
       }
    }
 
-   function toggleTimelineWithArticle() {
+   function toggleTimelineWhileVisible() {
       if (timelineModal.classList.contains("visible")) {
          toggleTimeline();
          
