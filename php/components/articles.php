@@ -20,7 +20,7 @@
                 <img class="card-img-top ac-visual" src="assets/articles/DeLaSalleBrothers.jpg" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title justify-content-center align-items-center text-center"><strong>The De La Salle Brothers of the Philippines</strong></h5>
-                    <p class="card-text justify-content-center align-items-center text-center">Learn more about the De La Salle Brothers in the Philippines.</p>
+                    <p class="card-text justify-content-center align-items-center text-center">Learn more about the De La Salle Brothers of the Philippines.</p>
                 </div>
             </a>
         </div>
