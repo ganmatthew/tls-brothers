@@ -29,7 +29,7 @@
                 </div>
                 <!-- Website Developers -->
                 <p class="footer-developers my-auto">Copyright 2023 © <strong>The LaSallian</strong><br>
-                Website developed by <a href="https://github.com/ganmatthew">Matthew Gan</a> and <a href="https://github.com/jerw18">Jeremy Wang</a><br>
+                Website developed by <a href="https://github.com/ganmatthew">Matthew Gan</a>, <a href="https://github.com/glinary">Gleezell Uy</a>, and <a href="https://github.com/jerw18">Jeremy Wang</a><br>
                 Icons by Google Material Design
                 </p>
             </div>
