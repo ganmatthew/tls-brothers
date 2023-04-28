@@ -36,7 +36,7 @@
                         </li>
                         <li class="nav-item">
                             <span class="material-icons">article</span>
-                            <a class="nav-link text-reset" onclick="toggleTimeline()" href="#articles"><strong>Articles</strong></a>
+                            <a class="nav-link text-reset" onclick="toggleTimelineWithArticle()"href="#articles"><strong>Articles</strong></a>
                         </li>
                     </ul>
                 </div>

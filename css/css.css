@@ -910,3 +910,11 @@ footer a:hover {
 p#footer-special-name {
     padding: 5px 25px 5px 25px !important;
 }
+
+.popup-image {
+    display: none;
+}
+  
+  .popup-image.show {
+    display: block;
+}

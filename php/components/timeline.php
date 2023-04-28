@@ -179,4 +179,11 @@
          document.body.style.overflow = "scroll";
       }
    }
+
+   function toggleTimelineWithArticle() {
+      if (timelineModal.classList.contains("visible")) {
+         toggleTimeline();
+         
+      } 
+   }
 </script>
