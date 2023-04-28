@@ -507,6 +507,11 @@ body .vox-carousel{
     }
 }
 
+.vox-carousel .vox-icon .vox-img:hover {
+    transition: 0.2s ease-in;
+    opacity: 0.7;
+}
+
 .vox-carousel .vox-icon .vox-img {
     position: absolute;
     width: 4.5rem;
@@ -515,7 +520,7 @@ body .vox-carousel{
     transition: 0.5s;
     border: 1px solid #000;
     box-shadow: 0 0 0 4px #222;
-    transform: rotate(calc(360deg / 8 * var(--i)));
+    transform: rotate(calc(360deg / 13 * var(--i)));
     transform-origin: 15rem;
 }
 
@@ -527,7 +532,7 @@ body .vox-carousel{
     height: 4.5rem;
     border-radius: 50%;
     object-fit: cover;
-    transform: rotate(calc(-360deg / 8 * var(--i)));
+    transform: rotate(calc(-360deg / 13 * var(--i)));
     transition: 0.5s;
     filter: grayscale(1);
     opacity: 0.8;

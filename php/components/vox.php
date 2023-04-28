@@ -7,71 +7,111 @@
     </div>
     
     <div class="vox-icon px-auto mx-auto">
-        <div class="vox-img vox-active" style="--i:1;" data-id="content1">
-            <img src="assets/articles/DeLaSalleBrothers.jpg" alt="Brother #">
+        <div class="vox-img" style="--i:1;" data-id="content1">
+            <img src="assets/vox-populi/brother1.jpg" alt="Brother #">
         </div>
         <div class="vox-img" style="--i:2;" data-id="content2">
-            <img src="assets/articles/DeLaSalleBrothers.jpg" alt="Brother #">
+            <img src="assets/vox-populi/brother2.jpg" alt="Brother #">
         </div>
         <div class="vox-img" style="--i:3;" data-id="content3">
-            <img src="assets/articles/DeLaSalleBrothers.jpg" alt="Brother #">
+            <img src="assets/vox-populi/brother3.jpg" alt="Brother #">
         </div>
         <div class="vox-img" style="--i:4;" data-id="content4">
-            <img src="assets/articles/DeLaSalleBrothers.jpg" alt="Brother #">
+            <img src="assets/vox-populi/brother4.jpg" alt="Brother #">
         </div>
         <div class="vox-img" style="--i:5;" data-id="content5">
-            <img src="assets/articles/DeLaSalleBrothers.jpg" alt="Brother #">
+            <img src="assets/vox-populi/brother5.jpg" alt="Brother #">
         </div>
         <div class="vox-img" style="--i:6;" data-id="content6">
-            <img src="assets/articles/DeLaSalleBrothers.jpg" alt="Brother #">
+            <img src="assets/vox-populi/brother6.jpg" alt="Brother #">
         </div>
         <div class="vox-img" style="--i:7;" data-id="content7">
-            <img src="assets/articles/DeLaSalleBrothers.jpg" alt="Brother #">
+            <img src="assets/vox-populi/brother7.jpg" alt="Brother #">
         </div>
         <div class="vox-img" style="--i:8;" data-id="content8">
-            <img src="assets/articles/DeLaSalleBrothers.jpg" alt="Brother #">
+            <img src="assets/vox-populi/brother8.jpg" alt="Brother #">
+        </div>
+        <div class="vox-img" style="--i:9;" data-id="content9">
+            <img src="assets/vox-populi/brother9.jpg" alt="Brother #">
+        </div>
+        <div class="vox-img" style="--i:10;" data-id="content10">
+            <img src="assets/vox-populi/brother10.jpg" alt="Brother #">
+        </div>
+        <div class="vox-img" style="--i:11;" data-id="content11">
+            <img src="assets/vox-populi/brother11.jpg" alt="Brother #">
+        </div>
+        <div class="vox-img" style="--i:12;" data-id="content12">
+            <img src="assets/vox-populi/brother12.jpg" alt="Brother #">
+        </div>
+        <div class="vox-img" style="--i:13;" data-id="content13">
+            <img src="assets/vox-populi/brother13.jpg" alt="Brother #">
         </div>
     </div>
 
     <div class="vox-content px-auto mx-auto">
-        <div class="vox-contentBx vox-active" id="content1">
+        <div class="vox-contentBx" id="content1">
             <div class="vox-img">
-                <img src="assets/articles/DeLaSalleBrothers.jpg" alt="Brother #">
+                <img src="assets/vox-populi/brother1.jpg" alt="Brother #">
             </div>
         </div>
         <div class="vox-contentBx" id="content2">
             <div class="vox-img">
-                <img src="assets/articles/DeLaSalleBrothers.jpg" alt="Brother #">
+                <img src="assets/vox-populi/brother2.jpg" alt="Brother #">
             </div>
         </div>
         <div class="vox-contentBx" id="content3">
             <div class="vox-img">
-                <img src="assets/articles/DeLaSalleBrothers.jpg" alt="Brother #">
+                <img src="assets/vox-populi/brother3.jpg" alt="Brother #">
             </div>
         </div>
         <div class="vox-contentBx" id="content4">
             <div class="vox-img">
-                <img src="assets/articles/DeLaSalleBrothers.jpg" alt="Brother #">
+                <img src="assets/vox-populi/brother4.jpg" alt="Brother #">
             </div>
         </div>
         <div class="vox-contentBx" id="content5">
             <div class="vox-img">
-                <img src="assets/articles/DeLaSalleBrothers.jpg" alt="Brother #">
+                <img src="assets/vox-populi/brother5.jpg" alt="Brother #">
             </div>
         </div>
         <div class="vox-contentBx" id="content6">
             <div class="vox-img">
-                <img src="assets/articles/DeLaSalleBrothers.jpg" alt="Brother #">
+                <img src="assets/vox-populi/brother6.jpg" alt="Brother #">
             </div>
         </div>
         <div class="vox-contentBx" id="content7">
             <div class="vox-img">
-                <img src="assets/articles/DeLaSalleBrothers.jpg" alt="Brother #">
+                <img src="assets/vox-populi/brother7.jpg" alt="Brother #">
             </div>
         </div>
         <div class="vox-contentBx" id="content8">
             <div class="vox-img">
-                <img src="assets/articles/DeLaSalleBrothers.jpg" alt="Brother #">
+                <img src="assets/vox-populi/brother8.jpg" alt="Brother #">
+            </div>
+        </div>
+        <div class="vox-contentBx" id="content9">
+            <div class="vox-img">
+                <img src="assets/vox-populi/brother9.jpg" alt="Brother #">
+            </div>
+        </div>
+        <div class="vox-contentBx" id="content10">
+            <div class="vox-img">
+                <img src="assets/vox-populi/brother10.jpg" alt="Brother #">
+            </div>
+        </div>
+        <div class="vox-contentBx" id="content11">
+            <div class="vox-img">
+                <img src="assets/vox-populi/brother11.jpg" alt="Brother #">
+            </div>
+        </div>
+        <div class="vox-contentBx" id="content12">
+            <div class="vox-img">
+                <img src="assets/vox-populi/brother12.jpg" alt="Brother #">
+            </div>
+        </div>
+        <div class="vox-contentBx" id="content13">
+            <div class="vox-img">
+                <img src="assets/vox-populi/brother13.jpg" alt="Brother #">
             </div>
         </div>
     </div>
@@ -103,6 +143,21 @@
     </div>
     <div class="popup-image">
         <img src="assets/brocards/8.png" alt="card #">
+    </div>
+    <div class="popup-image">
+        <img src="assets/brocards/9.png" alt="card #">
+    </div>
+    <div class="popup-image">
+        <img src="assets/brocards/10.png" alt="card #">
+    </div>
+    <div class="popup-image">
+        <img src="assets/brocards/11.png" alt="card #">
+    </div>
+    <div class="popup-image">
+        <img src="assets/brocards/12.png" alt="card #">
+    </div>
+    <div class="popup-image">
+        <img src="assets/brocards/13.png" alt="card #">
     </div>
     <div class="popup-close">
         <span>&times;</span>
