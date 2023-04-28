@@ -1,4 +1,10 @@
 <div class="vox-carousel vox-pady">
+
+    <div class="container vox-textBx">
+        <div class="pb-6 px-auto mx-auto justify-content-center align-items-center text-center">
+            <h2 class="vox-title mb-3"><strong>Vox Populi: What Are Brothers For?</strong></h2>  
+        </div>
+    </div>
     
     <div class="vox-icon px-auto mx-auto">
         <div class="vox-img vox-active" style="--i:1;" data-id="content1">
@@ -70,13 +76,6 @@
         </div>
     </div>
 
-
-
-    <div class="container vox-textBx">
-        <div class="pb-6 px-auto mx-auto justify-content-center align-items-center text-center">
-            <h2 class="vox-title mb-3"><strong>Vox Prompt</strong></h2>  
-        </div>
-    </div>
 </div>
 
 <!-- quote cards here -->
@@ -110,15 +109,6 @@
     </div>
 </div>
 
-    <style>
-    .popup-image-container {
-        display: none;
-    }
-    .popup-image-container.show {
-        display: block;
-    }
-</style>
-
 <script>
     let vox_img = document.querySelectorAll(".vox-img");
     let vox_contentBx = document.querySelectorAll(".vox-contentBx");
@@ -143,7 +133,7 @@
 
         // scroll down to the popup container
         window.scrollTo({
-            top: popupContainer.offsetTop,
+            top: popupContainer.offsetTop - 85,
             behavior: 'smooth'
         });
 
