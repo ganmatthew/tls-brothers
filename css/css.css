@@ -243,10 +243,17 @@ header div.header-bg a {
 
 header h1.title {
     font-size: 72px;
-    line-height: 100px;
+    line-height: 90px;
     letter-spacing: 0.1em;
     color: #FFFFFF;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    padding-bottom: 1em;
+}
+
+@media only screen and (max-width: 1185px) {
+    header div.header-bg {
+        background-size: cover;
+    }
 }
 
 header div.background {
@@ -254,8 +261,13 @@ header div.background {
     background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0) 47.21%, rgba(26, 50, 29, 0.5) 100%);
     margin: 0%;
     max-width: 100% !important;
-    height: 80vh;
-    padding-top: 60vh;
+    height: 450px;
+}
+
+@media only screen and (min-width: 767px) {
+    header div.background {
+        padding-top: 25%;
+    }
 }
 
 @media only screen and (max-width: 767px) {
@@ -266,14 +278,19 @@ header div.background {
 
     header div.background {
         height: none;
-        padding-top: 60vh;
+        padding-top: 45%;
     }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 420px) {
     header h1.title {
         font-size: 40px;
         line-height: 50px;
+    }
+
+    header div.background {
+        height: none;
+       
     }
 }
 
@@ -284,7 +301,7 @@ header div.background {
 .timeline-section {
     background-image: url(/assets/timeline/timeline1.jpg);
     background-position-y: 10%;
-    height: 40vh;
+    height: 45vh;
 }
 
 .timeline-section p {
@@ -334,6 +351,8 @@ div.timeline-title {
     color: white;
     text-align: center;
     padding-top: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
 .timeline-title h1 span.title-top {
@@ -449,9 +468,9 @@ div.timeline-card .text-container {
 button.timeline-close {
     position: absolute;
     width: 50px;
-    font-size: 48px;
-    top: 10%;
-    right: 8%;
+    font-size: 36px;
+    top: 8%;
+    right: 6%;
     color: white;
     border: 0;
     background: none;
@@ -462,6 +481,30 @@ button.timeline-close {
 button.timeline-close:hover {
     transform: scale(1.1);
     opacity: 0.85;
+}
+
+@media screen and (max-width: 680px) {
+    button.timeline-close {
+        font-size: 36px;
+        top: 3%;
+        right: 5%;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    button.timeline-close {
+        font-size: 36px;
+        top: 3%;
+        right: 5%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    button.timeline-close {
+        font-size: 28px;
+        top: 3%;
+        right: 0%;
+    }
 }
 
 /**
@@ -518,10 +561,10 @@ body .vox-carousel{
     height: 4.5rem;
     border-radius: 50%;
     transition: 0.5s;
-    border: 1px solid #000;
-    box-shadow: 0 0 0 4px #222;
+    /*border: 1px solid #000;*/
     transform: rotate(calc(360deg / 13 * var(--i)));
     transform-origin: 15rem;
+    box-shadow: 0 0 0 4px #222;
 }
 
 .vox-carousel .vox-icon .vox-img img {
@@ -641,37 +684,37 @@ h2.vox-title {
     }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 420px) {
     .vox-pady {
         padding-top: 14!important;
-        padding-bottom: 14rem!important;
+        padding-bottom: 21rem!important;
     }
 
     .vox-carousel {
-        height: 31.5rem;
+        height: 36rem;
     }
 
     .vox-carousel .vox-icon {
-        left: -8rem;
-        top: 13rem;
-        width: 3rem;
-        height: 3rem;
+        left: -9.5rem;
+        top: 10rem;
+        width: 3.8rem;
+        height: 3.8rem;
     }
 
     .vox-carousel .vox-icon .vox-img {
-        width: 3rem;
-        height: 3rem;
-        transform-origin: 9.5rem;
+        width: 3.8rem;
+        height: 3.8rem;
+        transform-origin: 11.5rem;
     }
 
     .vox-carousel .vox-icon .vox-img img {
-        width: 3rem;
-        height: 3rem;
+        width: 3.8rem;
+        height: 3.8rem;
     }
 
     .vox-content {
         left: 0rem;
-        top: 10.5rem;
+        top: 8rem;
     }
 
     .vox-contentBx .vox-img{
@@ -686,6 +729,36 @@ h2.vox-title {
     h2.vox-title {
         font-size: 2.5em;
         color: #000!important;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .vox-carousel .vox-icon {
+        left: -8.5rem;
+        top: 10rem;
+        width: 3.2rem;
+        height: 3.2rem;
+    }
+
+    .vox-carousel .vox-icon .vox-img {
+        width: 3.2rem;
+        height: 3.2rem;
+        transform-origin: 10rem;
+    }
+
+    .vox-carousel .vox-icon .vox-img img {
+        width: 3.2rem;
+        height: 3.2rem;
+    }
+
+    .vox-content {
+        left: 0rem;
+        top: 8rem;
+    }
+
+    .vox-contentBx .vox-img{
+        width: 10rem;
+        height: 10rem;
     }
 }
 
@@ -793,7 +866,19 @@ body .comm_carousel{
 
     .card_left {
         max-width: none;
+        display: flex;
+        justify-content: center;
     }
+
+    .card_left img {
+        max-width: 145%;
+        max-height: 20em;
+    }
+
+    .card_right {
+        max-width: 100%;
+    }
+
 }
 
 @media screen and (min-width: 500px) {
