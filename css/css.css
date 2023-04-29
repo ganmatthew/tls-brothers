@@ -973,9 +973,9 @@ body .comm_carousel{
 */
 footer {
     /*background: #1D5A32;*/
-    background-image: linear-gradient(rgba(29, 90, 50, 0.8), rgba(29, 90, 50, 0.95)), url(/assets/dlsu-garden.jpg);
+    background-image: linear-gradient(rgba(29, 90, 50, 0.8), rgba(29, 90, 50, 0.95)), url(/assets/dlsu-memorial-garden.jpg);
     background-size: cover;
-    background-position: 0% 172%;
+    background-position: 0% 65%;
     object-fit: cover;
     color: white;
     padding-top: 5rem;
