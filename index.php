@@ -22,7 +22,7 @@
         <div class="header-bg"> <!-- Placeholder Header Background Image -->
             <div class="container background">
                 <div class="justify-content-center align-items-center text-center">
-                    <h1 class="title">THE DE LA SALLE BROTHERS</h1>  
+                    <h1 class="title">DE LA SALLE BROTHERS</h1>  
                 </div>
             </div>
         </div>

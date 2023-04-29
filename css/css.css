@@ -470,11 +470,8 @@ div.timeline-card .text-container {
 }
 
 button.timeline-close {
-    position: absolute;
     width: 50px;
     font-size: 36px;
-    top: 8%;
-    right: 6%;
     color: white;
     border: 0;
     background: none;
@@ -487,27 +484,34 @@ button.timeline-close:hover {
     opacity: 0.85;
 }
 
-@media screen and (max-width: 680px) {
-    button.timeline-close {
-        font-size: 36px;
-        top: 3%;
-        right: 5%;
-    }
+div#timeline-close-container {
+    position: sticky;
+    width: 100%;
+    top: 8%;
+    padding-right: 4%;
+    display: flex;
+    justify-content: flex-end;
 }
+
 
 @media screen and (max-width: 680px) {
     button.timeline-close {
         font-size: 36px;
+    }
+
+    div#timeline-close-container {
         top: 3%;
-        right: 5%;
+        padding-right: 2%;
     }
 }
 
 @media screen and (max-width: 420px) {
     button.timeline-close {
         font-size: 28px;
-        top: 3%;
-        right: 0%;
+    }
+
+    div#timeline-close-container {
+        padding-right: 0%;
     }
 }
 

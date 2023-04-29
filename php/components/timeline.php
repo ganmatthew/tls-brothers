@@ -8,7 +8,9 @@
 <!-- Hidden initially -->
 <div class="timeline-modal" id="timelineModal">
    <!--Close button-->
-   <button onclick="toggleTimeline()" class="timeline-close material-icons">close</button>
+   <div id="timeline-close-container">
+      <button onclick="toggleTimeline()" class="timeline-close material-icons">close</button>
+   </div>
    <!--Title-->
    <div class="timeline-title">
       <h1>
