@@ -145,7 +145,7 @@
          </div>
       </div>
       <div class="timeline-card">
-         <img src="assets/timeline/timeline19.jpg"></img>
+         <img src="assets/timeline/timeline19.JPG"></img>
          <div class="text-container">
             <h2>2011</h2>
             <p>The Brothers of the Christian Schools celebrated 100 years of Lasallian presence in the Philippines.</p>
