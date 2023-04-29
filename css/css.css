@@ -328,7 +328,8 @@ header div.background {
 
 button.open-button {
     font-weight: 700;
-    background: #D6E6DA;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
     border: none;
     border-radius: 12px;
     padding: 0.5em;
@@ -340,8 +341,11 @@ button.open-button {
 button.open-button:hover {
     bottom: 5px;
     transition: 0.2s;
-    background-color: rgba(255, 255, 255, 0.2);
+    color: #1D5A32;
+    background-color: white;
 }
+
+
 
 /**
 * TIMELINE MODAL (overlay)
@@ -1029,3 +1033,7 @@ footer a:hover {
 p#footer-special-name {
     padding: 5px 25px 5px 25px !important;
 }
+
+
+
+  
