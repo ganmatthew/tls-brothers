@@ -29,7 +29,7 @@
          <img src="assets/timeline/timeline2.jpg"></img>
          <div class="text-container">
             <h2>1679</h2>
-            <p>John Baptist de La Salle encountered Adrian Nyel, a layman who aims to provide schooling for the poor, while working with the Sisters of the Child Jesus. After hearing Nyel’s intentions and his request for help, De La Salle pursued to be involved in the education for the poor which ended up become his life's work.</p>
+            <p>John Baptist de La Salle encountered Adrian Nyel, a layman who aims to provide schooling for the poor, while working with the Sisters of the Child Jesus. After hearing Nyel’s intentions and his request for help, De La Salle pursued to be involved in the education for the poor which ended up becoming his life's work.</p>
          </div>
       </div>
       <div class="timeline-card">
@@ -43,7 +43,7 @@
          <img src="assets/timeline/timeline4.jpg"></img>
          <div class="text-container">
             <h2>1683</h2>
-            <p>The teaching community under De La Salle’s guidance started to become more formalized. Around this time, De La Salle started to call this community “Brothers.” To be fully in one with his Brothers, he distributed all his wealth to the poor during a winter famine.</p>
+            <p>The teaching community under De La Salle’s guidance started to become more formalized. Around this time, De La Salle started to call this community “Brothers”. To be fully in one with his Brothers, he distributed all his wealth to the poor during a winter famine.</p>
          </div>
       </div>
       <div class="timeline-card">
@@ -57,7 +57,7 @@
          <img src="assets/timeline/timeline6.jpeg" style="max-height: max-content;"></img>
          <div class="text-container">
             <h2>1691</h2>
-            <p>Amidst the difficulties the Brothers and De La Salle himself are facing, the Heroic Vow was made between De La Salle and his two most trusted Brothers, Nicholas Vuyart and Gabriel Drolin, to "remain together in society even if they would have to beg and live on bread alone."</p>
+            <p>Amid the difficulties the Brothers and De La Salle himself were facing, the Heroic Vow was made between De La Salle and his two most trusted Brothers, Nicholas Vuyart and Gabriel Drolin, to "remain together in society even if they would have to beg and live on bread alone."</p>
          </div>
       </div>
       <div class="timeline-card">
@@ -85,7 +85,7 @@
          <img src="assets/timeline/timeline10.jpg"></img>
          <div class="text-container">
             <h2>1911</h2>
-            <p>After the liberation of the Philippines from Spain, Archbishop of Manila Jeremiah Harty turned to the Brothers of the Christian Schools in order to introduce English-based Catholic education in the Philippines. With this—on June 19, 1911—9 Christian Brothers from Europe and the United States opened the first La Salle school in the Philippines at Nozaleda Street, Paco, Manila.</p>
+            <p>After the liberation of the Philippines from Spain, Archbishop of Manila Jeremiah Harty turned to the Brothers of the Christian Schools in order to introduce English-based Catholic education in the Philippines. With this—on June 19, 1911—nine Christian Brothers from Europe and the United States opened the first La Salle school in the Philippines at Nozaleda Street, Paco, Manila.</p>
          </div>
       </div>
       <div class="timeline-card">
@@ -127,7 +127,7 @@
          <img src="assets/timeline/timeline16.jpg" style="max-height: max-content;"></img>
          <div class="text-container">
             <h2>1969</h2>
-            <p>The feast day of St. La Salle was moved to April 7, the day of his death or his 'birth into heaven'.</p>
+            <p>The feast day of St. La Salle was moved to April 7, the day of his death or his "birth into heaven".</p>
          </div>
       </div>
       <div class="timeline-card">
@@ -141,14 +141,14 @@
          <img src="assets/timeline/timeline18.jpg"></img>
          <div class="text-container">
             <h2>1978</h2>
-            <p>To once again deal with the rising student population, the Christian Brothers opened De La Salle Santiago Zobel (DLS-Z) in Alabang, Muntinlupa. With the transferring of primary and secondary education to DLS-Z, DLSU became a sole higher-education institution.</p>
+            <p>To once again deal with the rising student population, the Christian Brothers opened De La Salle Santiago Zobel (DLSZ) in Alabang, Muntinlupa. With the transferring of primary and secondary education to DLS-Z, DLSU became a sole higher-education institution.</p>
          </div>
       </div>
       <div class="timeline-card">
          <img src="assets/timeline/timeline19.jpg"></img>
          <div class="text-container">
             <h2>2011</h2>
-            <p>The Brothers of the Christian Schools celebrate 100 years of Lasallian presence in the Philippines.</p>
+            <p>The Brothers of the Christian Schools celebrated 100 years of Lasallian presence in the Philippines.</p>
          </div>
       </div>
    </div>
