@@ -9,6 +9,7 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     color: white;
+    overflow: hidden auto;
 }
 
 h1,
@@ -501,17 +502,13 @@ div#timeline-close-container {
 
     div#timeline-close-container {
         top: 3%;
-        padding-right: 2%;
+        padding-right: 0%;
     }
 }
 
 @media screen and (max-width: 420px) {
     button.timeline-close {
         font-size: 28px;
-    }
-
-    div#timeline-close-container {
-        padding-right: 0%;
     }
 }
 
