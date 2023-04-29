@@ -225,10 +225,10 @@ header {
 }
 
 header div.header-bg {
-    background-image: url(/assets/NZ-6276.jpg);
+    /*background-image: url(/assets/NZ-6276.jpg);*/
+    background-image: url(/assets/ls-brothers.jpg);
     background-position: center;
-    background-size: 100%;
-    background-position-y: 100%;
+    background-size: cover;
     background-fit: cover;
 }
 
@@ -244,11 +244,11 @@ header div.header-bg a {
 
 header h1.title {
     font-size: 72px;
-    line-height: 90px;
+    line-height: 80px;
     letter-spacing: 0.1em;
     color: #FFFFFF;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
-    padding-bottom: 1em;
+    text-shadow: 9px 18px 16px rgba(0, 0, 0, 0.1), 4px 9px 12px rgba(0, 0, 0, 0.5), 0px 3px 8px rgba(0, 0, 0, 0.75);
+    padding-bottom: 0.5em;
 }
 
 @media only screen and (max-width: 1185px) {
@@ -258,40 +258,44 @@ header h1.title {
 }
 
 header div.background {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 40em;
     /*background-color: rgba(29, 90, 50, 0.3);*/
-    background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0) 47.21%, rgba(26, 50, 29, 0.5) 100%);
+    background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0) 75%, rgba(26, 50, 29, 0.5) 100%);
     margin: 0%;
     max-width: 100% !important;
-    height: 450px;
-}
-
-@media only screen and (min-width: 767px) {
-    header div.background {
-        padding-top: 25%;
-    }
+    
 }
 
 @media only screen and (max-width: 767px) {
+    header div.background {
+        padding-top: 25%;
+    }
+
     header h1.title {
-        font-size: 48px;
-        line-height: 60px;
+        font-size: 42px;
+        line-height: 50px;
+
     }
 
     header div.background {
-        height: none;
+        max-height: 20em;
         padding-top: 45%;
     }
 }
 
 @media only screen and (max-width: 420px) {
     header h1.title {
-        font-size: 40px;
-        line-height: 50px;
+        font-size: 32px;
+        line-height: 40px;
+        padding-bottom: 0.1em;
     }
 
     header div.background {
-        height: none;
-       
+        max-height: 16em;
     }
 }
 
@@ -302,6 +306,8 @@ header div.background {
 .timeline-section {
     background-image: url(/assets/timeline/timeline1.jpg);
     background-position-y: 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 45vh;
 }
 
@@ -324,6 +330,12 @@ header div.background {
 
     .timeline-section {
         background-position-x: 60%;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .timeline-section {
+        height: 50vh;
     }
 }
 
