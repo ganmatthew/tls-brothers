@@ -254,6 +254,10 @@ header h1.title {
     header div.header-bg {
         background-size: cover;
     }
+
+    header h1.title {
+        font-size: 64px;
+    }
 }
 
 header div.background {
@@ -261,7 +265,7 @@ header div.background {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    height: 30em;
+    height: 45em;
     /*background-color: rgba(29, 90, 50, 0.3);*/
     background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0) 75%, rgba(26, 50, 29, 0.5) 100%);
     margin: 0%;
@@ -664,6 +668,7 @@ h2.vox-title span.upper-vox {
 h2.vox-title span.lower-vox {
     font-size: 24px;
     font-weight: 500;
+    line-height: 20px;
 }
 
 @media only screen and (max-width: 767px) {
@@ -676,7 +681,7 @@ h2.vox-title span.lower-vox {
     }
 
     .vox-carousel .vox-icon {
-        left: -11rem;
+        left: -11.5rem;
         top: 12rem;
         width: 4rem;
         height: 4rem;
@@ -713,7 +718,7 @@ h2.vox-title span.lower-vox {
     }
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 450px) {
     .vox-pady {
         padding-top: 14!important;
         padding-bottom: 21rem!important;
@@ -761,9 +766,9 @@ h2.vox-title span.lower-vox {
     }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 390px) {
     .vox-carousel .vox-icon {
-        left: -8.5rem;
+        left: -9rem;
         top: 10rem;
         width: 3.2rem;
         height: 3.2rem;
@@ -772,7 +777,7 @@ h2.vox-title span.lower-vox {
     .vox-carousel .vox-icon .vox-img {
         width: 3.2rem;
         height: 3.2rem;
-        transform-origin: 10rem;
+        transform-origin: 10.5rem;
     }
 
     .vox-carousel .vox-icon .vox-img img {
@@ -788,6 +793,26 @@ h2.vox-title span.lower-vox {
     .vox-contentBx .vox-img{
         width: 10rem;
         height: 10rem;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .vox-carousel .vox-icon {
+        left: -7.5rem;
+        top: 9.5rem;
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .vox-carousel .vox-icon .vox-img {
+        width: 3rem;
+        height: 3rem;
+        transform-origin: 9rem;
+    }
+
+    .vox-carousel .vox-icon .vox-img img {
+        width: 3rem;
+        height: 3rem;
     }
 }
 
