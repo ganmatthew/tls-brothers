@@ -2,7 +2,10 @@
 
     <div class="container vox-textBx">
         <div class="pb-6 px-auto mx-auto justify-content-center align-items-center text-center">
-            <h2 class="vox-title mb-3"><strong>Vox Populi: What Are Brothers For?</strong></h2>  
+            <h2 class="vox-title mb-3">
+                <span class="upper-vox">Vox Populi</span><br>
+                <span class="lower-vox">What does it mean to be a De La Salle Brother?</span>
+            </h2>  
         </div>
     </div>
     
