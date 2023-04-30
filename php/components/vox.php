@@ -125,42 +125,55 @@
 <div class="popup-image-container">
     <div class="popup-image">
         <img src="assets/brocards/1.png" alt="">
+        <p class="vox-image-credit">Photo by Alecs Ongcal</p>
     </div>
     <div class="popup-image">
         <img src="assets/brocards/2.png" alt="">
+        <p class="vox-image-credit">Photo by Ernest Mateo</p>
     </div>
     <div class="popup-image">
         <img src="assets/brocards/3.png" alt="">
+        <p class="vox-image-credit">Photo by Nelcze Zulueta</p>
     </div>
     <div class="popup-image">
         <img src="assets/brocards/4.png" alt="">
+        <p class="vox-image-credit">Photo by Nelcze Zulueta</p>
     </div>
     <div class="popup-image">
         <img src="assets/brocards/5.png" alt="">
+        <p class="vox-image-credit">Photo by Nelcze Zulueta</p>
     </div>
     <div class="popup-image">
         <img src="assets/brocards/6.png" alt="">
+        <p class="vox-image-credit">Photo by Nelcze Zulueta</p>
     </div>
     <div class="popup-image">
         <img src="assets/brocards/7.png" alt="">
+        <p class="vox-image-credit">Photo by Nelcze Zulueta</p>
     </div>
     <div class="popup-image">
         <img src="assets/brocards/8.png" alt="">
+        <p class="vox-image-credit">Photo by Nelcze Zulueta</p>
     </div>
     <div class="popup-image">
         <img src="assets/brocards/9.png" alt="">
+        <p class="vox-image-credit">Photo by Nelcze Zulueta</p>
     </div>
     <div class="popup-image">
         <img src="assets/brocards/10.png" alt="">
+        <p class="vox-image-credit">Photo by Nelcze Zulueta</p>
     </div>
     <div class="popup-image">
         <img src="assets/brocards/11.png" alt="">
+        <p class="vox-image-credit">Photo by Sean Joya</p>
     </div>
     <div class="popup-image">
         <img src="assets/brocards/12.png" alt="">
+        <p class="vox-image-credit">Photo by Sean Joya</p>
     </div>
     <div class="popup-image">
         <img src="assets/brocards/13.png" alt="">
+        <p class="vox-image-credit">Photo by Sean Joya</p>
     </div>
     <div class="popup-close">
         <span>&times;</span>

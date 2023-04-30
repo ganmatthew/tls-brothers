@@ -2,6 +2,7 @@ const communities = [
    {
       'name': "1911 Brothers' Community",
       'image_name': "1911.png",
+      'image_credit': "De La Salle Philippines",
       'location': "De La Salle University - Manila",
       'num_brothers': 8,
       'desc': "The Brothers assigned to this community serve in De La Salle University - Manila, De La Salle - College of St. Benilde, De La Salle Santiago Zobel, St. Jaime Hilario School - De La Salle Bataan, and De La Salle Araneta University. The community's name came from the foundation year of the first La Salle school in the Philippines. This is also the country's first community of De La Salle Brothers."
@@ -9,6 +10,7 @@ const communities = [
    {
       'name': "Bacolod Brothers' Community",
       'image_name': "Bacolod.jpg",
+      'image_credit': "De La Salle Philippines",
       'location': "Bacolod, Negros Occidental",
       'num_brothers': 9,
       'desc': "The Brothers assigned to this community serve in the University of St. La Salle and St. Joseph School - La Salle."
@@ -16,6 +18,7 @@ const communities = [
    {
       'name': "Holy Infancy Brothers' Community",
       'image_name': "HolyInfancy.jpg",
+      'image_credit': "De La Salle Philippines",
       'location': "La Salle Academy, Iligan, Lanao del Norte",
       'num_brothers': 3,
       'desc': "The Brothers assigned to this community serve in La Salle Academy."
@@ -23,6 +26,7 @@ const communities = [
    {
       'name': "Lipa Brothers' Community",
       'image_name': "Lipa.jpg",
+      'image_credit': "De La Salle Philippines",
       'location': "De La Salle Lipa, Batangas",
       'num_brothers': 4,
       'desc': "The Brothers assigned to this community serve in De La Salle Lipa."
@@ -30,6 +34,7 @@ const communities = [
    {
       'name': "Ozamiz Brothers' Community",
       'image_name': "Ozamiz.jpeg",
+      'image_credit': "De La Salle Philippines",
       'location': "La Salle University, Ozamiz, Misamis Occidental",
       'num_brothers': 4,
       'desc': "The Brothers assigned to this community serve in La Salle University - Ozamiz."
@@ -37,6 +42,7 @@ const communities = [
    {
       'name': "Residencia de La Salle",
       'image_name': null,
+      'image_credit': null,
       'location': "De La Salle Medical and Health Sciences Institute, Dasmariñas, Cavite",
       'num_brothers': 10,
       'desc': "The Brothers assigned to this community serve in De La Salle University - Dasmarinas and De La Salle Medical and Health Sciences Institute. This community also houses the retirement facility of the De La Salle Brothers."
@@ -44,6 +50,7 @@ const communities = [
    {
       'name': "St. Benilde Brothers' Community",
       'image_name': null,
+      'image_credit': null,
       'location': "La Salle Green Hills, Mandaluyong",
       'num_brothers': 10,
       'desc': "The Brothers assigned to this community serve in La Salle Green Hills, De La Salle - College of St. Benilde, and La Salle College Antipolo."
@@ -51,6 +58,7 @@ const communities = [
    {
       'name': "St. Jaime Hilario Brothers' Community",
       'image_name': null,
+      'image_credit': null,
       'location': "St. Jaime Hilario School - De La Salle Bataan, Bagac, Bataan",
       'num_brothers': 3,
       'desc': "The Brothers assigned to this community serve in St. Jaime Hilario School - De La Salle Bataan."
@@ -67,7 +75,7 @@ function getImageAsset(image_path) {
 }
 
 // Creates a carousel entry with the given parameters
-function createCarouselEntry(comm_name, comm_image_path, comm_location, num_brothers, comm_desc) {
+function createCarouselEntry(comm_name, comm_image_path, comm_credit, comm_location, num_brothers, comm_desc) {
    const carouselItem = document.createElement('div');
    carouselItem.classList.add('carousel-item');
 
@@ -80,8 +88,18 @@ function createCarouselEntry(comm_name, comm_image_path, comm_location, num_brot
    const image = document.createElement('img');
 
    // Checks first if there is an available image, otherwise uses placeholder image
-   image.setAttribute('src', getImageAsset(comm_image_path));
+   const imgFile = getImageAsset(comm_image_path)
+   image.setAttribute('src', imgFile);
    cardLeft.appendChild(image);
+
+   // Creates the credit caption below the image if the image exists
+   console.log(imgFile);
+   if (imgFile != "assets/dlsp-placeholder.png") {
+      const caption = document.createElement('p');
+      caption.classList.add('image-credit');
+      caption.innerHTML = 'Photo from ' + comm_credit;  
+      cardLeft.appendChild(caption);
+   }
 
    // Creates the text side of the card
    const cardRight = document.createElement('div');
@@ -123,7 +141,7 @@ function populateCarousel() {
 
    communities.forEach(community => {
       let carouselItem = createCarouselEntry(
-         community.name, community.image_name, community.location, community.num_brothers, community.desc
+         community.name, community.image_name, community.image_credit, community.location, community.num_brothers, community.desc
       )
       // Sets the first added community as the active one
       if (!firstItem && carouselItem.classList.contains('carousel-item')) {
