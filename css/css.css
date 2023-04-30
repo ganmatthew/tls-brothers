@@ -425,7 +425,7 @@ div.timeline-title {
 
 div.timeline-modal.visible {
     visibility: visible;
-    transform: translateY(85px);
+    transform: translateY(84px);
     transition: 0.4s ease-in-out;
     opacity: 1;
 }
@@ -901,10 +901,11 @@ body .comm_carousel{
     margin-right: 2em;
     padding-left: 2em;
     padding-right: 2em;
+    width: 100%;
 }
 
 .card_left {
-    max-width: 40%;
+    width: 40%;
 }
 
 .card_left img {
@@ -973,6 +974,7 @@ body .comm_carousel{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        width: 75%;
     }
 
     .card_left img {
@@ -983,21 +985,9 @@ body .comm_carousel{
         width: 75%;
     }
 
-    #comm-carousel {
-        width: 100%;
-    }
-
 }
 
 @media screen and (max-width: 980px) {
-    #comm-carousel {
-        width: 100%;
-    }
-
-    .comm_card {
-        width: 100%;
-    }
-
     .carousel-item {
         min-height: 45em;
     }
