@@ -3,6 +3,6 @@
 
 ---
 
-Developed by [Matthew Gan](https://github.com/ganmatthew), [Gleezell Uy](https://github.com/glinary)<br>, and [Jeremy Wang](https://github.com/jerw18)
+Developed by [Matthew Gan](https://github.com/ganmatthew), [Gleezell Uy](https://github.com/glinary), and [Jeremy Wang](https://github.com/jerw18)<br>
 
 TLS 62 Web Development Team, 2023
