@@ -91,7 +91,7 @@
          </div>
       </div>
       <div class="timeline-card">
-         <img src="assets/timeline/timeline11.JPG"></img>
+         <img src="assets/timeline/timeline11.jpg"></img>
          <div class="text-container">
             <h2>1912</h2>
             <p>On February 12, 1912, the first La Salle school in the Philippines was established as De La Salle College (DLSC), and was authorized to grant high school diplomas.</p>
@@ -147,7 +147,7 @@
          </div>
       </div>
       <div class="timeline-card">
-         <img src="assets/timeline/timeline19.JPG"></img>
+         <img src="assets/timeline/timeline19.jpg"></img>
          <div class="text-container">
             <h2>2011</h2>
             <p>The Brothers of the Christian Schools celebrated 100 years of Lasallian presence in the Philippines.</p>
