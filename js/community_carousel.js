@@ -2,9 +2,9 @@ const communities = [
    {
       'name': "1911 Brothers' Community",
       'image_name': "1911.png",
-      'location': "De La Salle University - Manila, Manila",
+      'location': "De La Salle University - Manila",
       'num_brothers': 8,
-      'desc': "The Brothers assigned to this community serve in De La Salle University - Manila, De La Salle - College of St. Benilde, De La Salle Santiago Zobel, St Jaime Hilario School - De La Salle Bataan, and De La Salle Araneta University. The community' name came from the foundation year of the first La Salle school in the Philippines. This is also the country's first community of De La Salle Brothers."
+      'desc': "The Brothers assigned to this community serve in De La Salle University - Manila, De La Salle - College of St. Benilde, De La Salle Santiago Zobel, St. Jaime Hilario School - De La Salle Bataan, and De La Salle Araneta University. The community's name came from the foundation year of the first La Salle school in the Philippines. This is also the country's first community of De La Salle Brothers."
    },
    {
       'name': "Bacolod Brothers' Community",
@@ -23,7 +23,7 @@ const communities = [
    {
       'name': "Lipa Brothers' Community",
       'image_name': "Lipa.jpg",
-      'location': "De La Salle Lipa, Lipa, Batangas",
+      'location': "De La Salle Lipa, Batangas",
       'num_brothers': 4,
       'desc': "The Brothers assigned to this community serve in De La Salle Lipa."
    },

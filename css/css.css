@@ -122,6 +122,11 @@ nav .offcanvas {
     color: white !important;
 }
 
+.offcanvas .offcanvas-body {
+    overflow-x: hidden; 
+    overflow-y: auto; 
+}
+
 nav h5.offcanvas-title {
     font-weight: bold; 
 }
