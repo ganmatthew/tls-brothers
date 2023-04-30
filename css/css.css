@@ -889,6 +889,7 @@ body .comm_carousel{
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    width: 100%;
 }
 
 .comm_pady {
@@ -901,7 +902,7 @@ body .comm_carousel{
     margin-right: 2em;
     padding-left: 2em;
     padding-right: 2em;
-    width: 100%;
+    max-width: 100%;
 }
 
 .card_left {
