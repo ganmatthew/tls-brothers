@@ -167,6 +167,7 @@
       <div class="timeline-card">
          <img src="assets/timeline/timeline19.jpg"></img>
          <div class="text-container">
+            <p class="timeline-image-credit">Photo from <a href="https://thelasallian.com/">The LaSallian</a></p>
             <h2>2011</h2>
             <p>The Brothers of the Christian Schools celebrated 100 years of Lasallian presence in the Philippines.</p>
          </div>
