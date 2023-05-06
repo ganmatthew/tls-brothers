@@ -1,5 +1,5 @@
 # tls-brothers
-**The LaSallian**'s repository for the De La Salle Brothers special.
+**The LaSallian**'s repository for the De La Salle Brothers special. You can find the live website at [brothers.thelasallian.com](https://brothers.thelasallian.com/).
 
 ---
 
